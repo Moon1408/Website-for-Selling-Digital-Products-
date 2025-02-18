@@ -16,22 +16,19 @@ một trải nghiệm  mua sắm trực tuyến tiện lợi, linh hoạt và h�
   
 • Quản lý người dùng
   
-      ✓ Đăng ký và đăng nhập tài khoản: Người dùng có thể dễ dàng đăng ký tài 
-      khoản để truy cập đầy đủ các chức năng của trang web.
+    ✓ Đăng ký và đăng nhập tài khoản: Người dùng có thể dễ dàng đăng ký tài khoản để truy cập đầy đủ các chức năng của trang web.
 
 • Quản lý danh mục hàng hóa
   
-      ✓ Xem thông tin chi tiết sản phẩm: Mô tả chi tiết về từng loại laptop, hình ảnh 
-      chất lượng cao, và giá cả được hiển thị rõ ràng, giúp người dùng dễ dàng đưa 
-      ra quyết định mua hàng.
+    ✓ Xem thông tin chi tiết sản phẩm: Mô tả chi tiết về từng loại laptop, hình ảnh chất lượng cao, và giá cả được hiển thị rõ ràng, giúp người dùng dễ dàng đưa ra quyết định mua hàng.
   
 • Quản lý giỏ hàng
   
-      ✓ Cho phép bạn dễ dàng thêm, xóa hoặc chỉnh sửa số lượng các mặt hàng.
+    ✓ Cho phép bạn dễ dàng thêm, xóa hoặc chỉnh sửa số lượng các mặt hàng.
     
-      ✓ Lựa chọn thanh toán: Người dùng có thể chọn phương thức thanh toán.
+    ✓ Lựa chọn thanh toán: Người dùng có thể chọn phương thức thanh toán.
     
-      ✓ linh hoạt như thanh toán khi nhận hàng cod hoặc thanh toán bằng VNPAY.
+    ✓ linh hoạt như thanh toán khi nhận hàng cod hoặc thanh toán bằng VNPAY.
     
 − Còn đối phía người quản lý, website cung cấp những tính năng:  
 
