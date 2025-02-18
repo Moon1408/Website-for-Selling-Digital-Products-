@@ -8,7 +8,7 @@ một trải nghiệm  mua sắm trực tuyến tiện lợi, linh hoạt và h�
 
 **2. Mục tiêu:**
 
-- Với website này, người dùng được cung cấp những chức năng:
+− Với website này, người dùng được cung cấp những chức năng:
   
   • Trang home: Ở trang home người dùng có thể xem, tìm kiếm các sản phẩm laptop 
   mới nhất. Nhiều mẫu mã đa dạng từ laptop dành cho công việc đến gaming đồ  
