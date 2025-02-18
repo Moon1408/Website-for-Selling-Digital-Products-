@@ -1,0 +1,35 @@
+﻿
+.menu-link {
+    color: #000; /* Màu chữ là màu đen */
+    text-decoration: none; /* Không có gạch chân */
+    font-size: 16px; /* Kích thước chữ */
+}
+
+.menu-link:hover {
+    background-color: transparent; /* Nền trong suốt khi rơi chuột vào */
+    color: #FFD700; /* Màu chữ vàng khi rơi chuột vào */
+}
+.truncate-text {
+    display: inline-block;
+    max-width: 250px; /*  Điều chỉnh giá trị này theo ý muốn */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom; /* Đảm bảo văn bản được căn chỉnh đúng */
+}
+/* Nút thêm - Index + Nút quay về - Create */
+.table td, .table th {
+    text-align: center; /* Căn giữa nội dung trong các ô của bảng */
+}
+
+.white-hover-link a {
+    color: inherit; /* Giữ màu mặc định hoặc kế thừa từ phần tử cha */
+    text-decoration: none; /* Loại bỏ gạch chân, nếu muốn */
+}
+
+    .white-hover-link a:hover {
+        color: white; /* Màu trắng khi hover */
+        text-decoration: none; /* Giữ không gạch chân khi hover, nếu muốn */
+    }
+
+

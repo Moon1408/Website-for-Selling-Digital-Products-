@@ -1,0 +1,2065 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewmodels\\orderdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewmodels\\orderdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\cart\\paymentfail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\cart\\paymentfail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\cart\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\cart\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\shared\\_layoutheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\shared\\_layoutheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\models\\webnccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\models\\webnccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\hoadonadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\hoadonadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\hoadonadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\hoadonadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\hanghoaadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\hanghoaadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\hoadonadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\hoadonadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\order\\emptyorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\order\\emptyorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\controllers\\hoadonadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\controllers\\hoadonadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\controllers\\hanghoaadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\controllers\\hanghoaadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\pages\\thuonghieu\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\pages\\thuonghieu\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\trangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\trangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\thuonghieuadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\thuonghieuadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\nhanviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\nhanviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\phanquyens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\phanquyens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\pages\\thuonghieu\\detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\pages\\thuonghieu\\detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\controllers\\phanquyenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\controllers\\phanquyenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\phanquyens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\phanquyens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\phanquyens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\phanquyens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\giamgia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\giamgia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\controllers\\giamgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\controllers\\giamgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\controllers\\chitietggcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\controllers\\chitietggcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\giamgia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\giamgia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\giamgia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\giamgia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\controllers\\phongbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\controllers\\phongbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\giamgia\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\giamgia\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\shared\\_menupartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\shared\\_menupartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\controllers\\loaiadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\controllers\\loaiadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\controllers\\khachhangadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\controllers\\khachhangadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\models\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\models\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\models\\chitietgg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\models\\chitietgg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewmodels\\cartcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewmodels\\cartcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\helpers\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\helpers\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\shared\\_sp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\shared\\_sp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\hanghoa\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\hanghoa\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\loaiadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\loaiadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\loaiadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\loaiadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewmodels\\menuvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewmodels\\menuvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewmodels\\discountinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewmodels\\discountinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewmodels\\hoadonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewmodels\\hoadonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewmodels\\hoadondetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewmodels\\hoadondetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewmodels\\hanghoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewmodels\\hanghoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewmodels\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewmodels\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\wwwroot\\js\\admin1.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\wwwroot\\js\\admin1.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\wwwroot\\js\\ad_action.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\wwwroot\\js\\ad_action.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\taikhoan\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\taikhoan\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\taikhoan\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\taikhoan\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewcomponents\\menuhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewcomponents\\menuhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewcomponents\\cartviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewcomponents\\cartviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\thongke\\thongke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\thongke\\thongke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\controllers\\kiemtraquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\controllers\\kiemtraquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\controllers\\thongkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\controllers\\thongkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\services\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\services\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\services\\chartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\services\\chartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\helpers\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\helpers\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\hanghoaadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\hanghoaadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nhitr\\.nuget\\packages\\epplus\\7.2.1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\hanghoaadmin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\hanghoaadmin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\khachhangadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\khachhangadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\shared\\_layoutfooter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\shared\\_layoutfooter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\controllers\\thuonghieuadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\controllers\\thuonghieuadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\kiemtraquyen\\tuchoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\kiemtraquyen\\tuchoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\models\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\models\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\models\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\models\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\hanghoaadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\hanghoaadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\thuonghieuadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\thuonghieuadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\thuonghieuadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\thuonghieuadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\loaiadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\loaiadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\khachhangadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\khachhangadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\khachhangadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\khachhangadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\hanghoaadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\hanghoaadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\hoadonadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\hoadonadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewmodels\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewmodels\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\phongbans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\phongbans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\trangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\trangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\phongbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\phongbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\areas\\admin\\views\\trangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\areas\\admin\\views\\trangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\shared\\components\\menuhome\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\shared\\components\\menuhome\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\shared\\components\\menuloai\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\shared\\components\\menuloai\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\shared\\components\\menuth\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\shared\\components\\menuth\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewcomponents\\menuth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewcomponents\\menuth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\viewcomponents\\menuloaiviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\viewcomponents\\menuloaiviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HUFLIT\\Nam4\\1. DoAn\\Webnc\\Webnc\\Webnc\\Data\\WebncContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|d:\\1. huflit\\nam4_hk2\\web\\1. pq\\webnc\\webnc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5DFABEC0-5253-4502-B209-51ED72135C64}|Webnc\\Webnc.csproj|solutionrelative:webnc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Webnc\\Controllers\\CartController.cs",
+              "ViewState": "AQIAADQBAAAAAAAAAAAawDYBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T06:37:51.888Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAAAJgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T06:37:16.48Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\OrderDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewModels\\OrderDetailsViewModel.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\OrderDetailsViewModel.cs",
+              "RelativeToolTip": "Webnc\\ViewModels\\OrderDetailsViewModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAADwvxQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T13:23:49.567Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Webnc\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAuwFAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T13:24:25.485Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Order\\Details.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Order\\Details.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAUwCcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T13:26:41.095Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentSuccess.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Cart\\PaymentSuccess.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Cart\\PaymentSuccess.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Cart\\PaymentSuccess.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Cart\\PaymentSuccess.cshtml",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAgwG8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T02:04:38.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T03:50:07.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Program.cs",
+              "RelativeDocumentMoniker": "Webnc\\Program.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Program.cs",
+              "RelativeToolTip": "Webnc\\Program.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAhwG4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:57:47.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentFail.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Cart\\PaymentFail.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Cart\\PaymentFail.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Cart\\PaymentFail.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Cart\\PaymentFail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T02:05:01.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_LayoutHeader.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\_LayoutHeader.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Shared\\_LayoutHeader.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\_LayoutHeader.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Shared\\_LayoutHeader.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB4AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T13:22:46.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABkBAAAAAAAAAAAAACcBAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T10:16:13.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebncContext.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Models\\WebncContext.cs",
+              "RelativeDocumentMoniker": "Webnc\\Models\\WebncContext.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Models\\WebncContext.cs",
+              "RelativeToolTip": "Webnc\\Models\\WebncContext.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAADwvzMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:57:14.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Details.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Details.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Details.cshtml",
+              "ViewState": "AQIAADoAAAAAAAAAAAAwwEsAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T05:43:59.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Index.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAEoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T05:43:26.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Edit.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Edit.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Edit.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwEEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T06:03:33.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Edit.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Edit.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T05:43:53.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmptyOrders.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Order\\EmptyOrders.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Order\\EmptyOrders.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Order\\EmptyOrders.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Order\\EmptyOrders.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T13:31:35.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HoaDonAdminController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\HoaDonAdminController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Controllers\\HoaDonAdminController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\HoaDonAdminController.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Controllers\\HoaDonAdminController.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAQwNcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T05:39:31.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HangHoaAdminController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\HangHoaAdminController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Controllers\\HangHoaAdminController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\HangHoaAdminController.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Controllers\\HangHoaAdminController.cs",
+              "ViewState": "AQIAAMcBAAAAAAAAAAAuwOIBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T03:36:22.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T13:25:17.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Pages\\ThuongHieu\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Pages\\ThuongHieu\\Detail.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Pages\\ThuongHieu\\Detail.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Pages\\ThuongHieu\\Detail.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T13:05:29.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\ThuongHieuAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\ThuongHieuAdmin\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\ThuongHieuAdmin\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\ThuongHieuAdmin\\Index.cshtml",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAAAHoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-16T03:42:12.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\PhanQuyens\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\PhanQuyens\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\PhanQuyens\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\PhanQuyens\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEUAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T08:03:48.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\Trangs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\Trangs\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\Trangs\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\Trangs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T01:16:06.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Detail.cshtml.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Pages\\ThuongHieu\\Detail.cshtml.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Pages\\ThuongHieu\\Detail.cshtml.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Pages\\ThuongHieu\\Detail.cshtml.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Pages\\ThuongHieu\\Detail.cshtml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvy0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T13:06:52.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\NhanViens\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\NhanViens\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\NhanViens\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\NhanViens\\Index.cshtml",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAowKAAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T06:43:37.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAHwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T04:03:28.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PhanQuyensController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\PhanQuyensController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Controllers\\PhanQuyensController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\PhanQuyensController.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Controllers\\PhanQuyensController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAA2wGIAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T02:29:41.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\PhanQuyens\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\PhanQuyens\\Edit.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\PhanQuyens\\Edit.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\PhanQuyens\\Edit.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T02:33:11.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\PhanQuyens\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\PhanQuyens\\Create.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\PhanQuyens\\Create.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\PhanQuyens\\Create.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T02:29:49.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\GiamGia\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\GiamGia\\Create.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\GiamGia\\Create.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\GiamGia\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T06:41:54.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GiamGiaController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\GiamGiaController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Controllers\\GiamGiaController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\GiamGiaController.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Controllers\\GiamGiaController.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAowIkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T05:52:11.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ChiTietGgController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\ChiTietGgController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Controllers\\ChiTietGgController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\ChiTietGgController.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Controllers\\ChiTietGgController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:37:02.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "NhanViensController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\NhanViensController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Controllers\\NhanViensController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\NhanViensController.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Controllers\\NhanViensController.cs",
+              "ViewState": "AQIAAMQBAAAAAAAAAAAqwNwBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T01:17:22.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\GiamGia\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\GiamGia\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\GiamGia\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\GiamGia\\Index.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAUwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T05:54:58.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\GiamGia\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\GiamGia\\Edit.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\GiamGia\\Edit.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\GiamGia\\Edit.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T07:02:40.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PhongBansController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\PhongBansController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Controllers\\PhongBansController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\PhongBansController.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Controllers\\PhongBansController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:56:03.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\GiamGia\\Details.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\GiamGia\\Details.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\GiamGia\\Details.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\GiamGia\\Details.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAmwCcAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T07:14:49.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_MenuPartialView.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\Shared\\_MenuPartialView.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\Shared\\_MenuPartialView.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\Shared\\_MenuPartialView.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\Shared\\_MenuPartialView.cshtml",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAUwIwAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T11:42:57.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "KhachHangAdminController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\KhachHangAdminController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Controllers\\KhachHangAdminController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\KhachHangAdminController.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Controllers\\KhachHangAdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:25:42.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LoaiAdminController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\LoaiAdminController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Controllers\\LoaiAdminController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\LoaiAdminController.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Controllers\\LoaiAdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:25:44.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ChiTietHd.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Models\\ChiTietHd.cs",
+              "RelativeDocumentMoniker": "Webnc\\Models\\ChiTietHd.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Models\\ChiTietHd.cs",
+              "RelativeToolTip": "Webnc\\Models\\ChiTietHd.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T01:58:49.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CartCalculator.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\CartCalculator.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewModels\\CartCalculator.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\CartCalculator.cs",
+              "RelativeToolTip": "Webnc\\ViewModels\\CartCalculator.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAQwGMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:49:45.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ChiTietGg.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Models\\ChiTietGg.cs",
+              "RelativeDocumentMoniker": "Webnc\\Models\\ChiTietGg.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Models\\ChiTietGg.cs",
+              "RelativeToolTip": "Webnc\\Models\\ChiTietGg.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:47:18.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Webnc\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Webnc\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T01:58:49.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MySetting.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Helpers\\MySetting.cs",
+              "RelativeDocumentMoniker": "Webnc\\Helpers\\MySetting.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Helpers\\MySetting.cs",
+              "RelativeToolTip": "Webnc\\Helpers\\MySetting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T00:44:08.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Helpers\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "Webnc\\Helpers\\SessionExtensions.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Helpers\\SessionExtensions.cs",
+              "RelativeToolTip": "Webnc\\Helpers\\SessionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T00:44:19.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Helpers\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "Webnc\\Helpers\\VnPayLibrary.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Helpers\\VnPayLibrary.cs",
+              "RelativeToolTip": "Webnc\\Helpers\\VnPayLibrary.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:04:50.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "MenuVM.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\MenuVM.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewModels\\MenuVM.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\MenuVM.cs",
+              "RelativeToolTip": "Webnc\\ViewModels\\MenuVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T02:49:58.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_SP.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\_SP.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Shared\\_SP.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\_SP.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Shared\\_SP.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-16T04:55:05.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\LoaiAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\LoaiAdmin\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\LoaiAdmin\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\LoaiAdmin\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAcwHUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T14:13:59.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\HangHoa\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\HangHoa\\Detail.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\HangHoa\\Detail.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\HangHoa\\Detail.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T05:58:25.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "TaiKhoanController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Controllers\\TaiKhoanController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Controllers\\TaiKhoanController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Controllers\\TaiKhoanController.cs",
+              "RelativeToolTip": "Webnc\\Controllers\\TaiKhoanController.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAuwIMAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T01:50:23.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAAAHoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T06:38:33.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "HangHoaController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Controllers\\HangHoaController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Controllers\\HangHoaController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Controllers\\HangHoaController.cs",
+              "RelativeToolTip": "Webnc\\Controllers\\HangHoaController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwDkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:06:12.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DiscountInfoViewModel.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\DiscountInfoViewModel.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewModels\\DiscountInfoViewModel.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\DiscountInfoViewModel.cs",
+              "RelativeToolTip": "Webnc\\ViewModels\\DiscountInfoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:15:50.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\LoaiAdmin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\LoaiAdmin\\Edit.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\LoaiAdmin\\Edit.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\LoaiAdmin\\Edit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T14:13:55.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "HoaDonViewModel.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\HoaDonViewModel.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewModels\\HoaDonViewModel.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\HoaDonViewModel.cs",
+              "RelativeToolTip": "Webnc\\ViewModels\\HoaDonViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T05:36:51.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\RegisterVM.cs",
+              "RelativeToolTip": "Webnc\\ViewModels\\RegisterVM.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T02:49:55.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewModels\\LoginVM.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "Webnc\\ViewModels\\LoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T10:34:13.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\CartItem.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewModels\\CartItem.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\CartItem.cs",
+              "RelativeToolTip": "Webnc\\ViewModels\\CartItem.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:23:45.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "HoaDonDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\HoaDonDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewModels\\HoaDonDetailsViewModel.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\HoaDonDetailsViewModel.cs",
+              "RelativeToolTip": "Webnc\\ViewModels\\HoaDonDetailsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T05:37:20.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "HangHoaVM.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\HangHoaVM.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewModels\\HangHoaVM.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\HangHoaVM.cs",
+              "RelativeToolTip": "Webnc\\ViewModels\\HangHoaVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T02:35:52.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CheckoutVM.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\CheckoutVM.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewModels\\CheckoutVM.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\CheckoutVM.cs",
+              "RelativeToolTip": "Webnc\\ViewModels\\CheckoutVM.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:23:19.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Webnc\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Webnc\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-29T14:50:39.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "DangKy.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\TaiKhoan\\DangKy.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\TaiKhoan\\DangKy.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\TaiKhoan\\DangKy.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\TaiKhoan\\DangKy.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAEwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T01:52:10.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\TaiKhoan\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\TaiKhoan\\DangNhap.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\TaiKhoan\\DangNhap.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\TaiKhoan\\DangNhap.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAqwFsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T10:40:24.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "admin.js",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\admin.js",
+              "RelativeDocumentMoniker": "Webnc\\wwwroot\\js\\admin.js",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\admin.js",
+              "RelativeToolTip": "Webnc\\wwwroot\\js\\admin.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-03T02:22:49.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ad_action.js",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\ad_action.js",
+              "RelativeDocumentMoniker": "Webnc\\wwwroot\\js\\ad_action.js",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\ad_action.js",
+              "RelativeToolTip": "Webnc\\wwwroot\\js\\ad_action.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-13T02:03:39.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "admin1.js",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\admin1.js",
+              "RelativeDocumentMoniker": "Webnc\\wwwroot\\js\\admin1.js",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\admin1.js",
+              "RelativeToolTip": "Webnc\\wwwroot\\js\\admin1.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-04T12:49:16.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "cart.js",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\cart.js",
+              "RelativeDocumentMoniker": "Webnc\\wwwroot\\js\\cart.js",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\cart.js",
+              "RelativeToolTip": "Webnc\\wwwroot\\js\\cart.js",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAkwF4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-24T13:40:51.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "main.js",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "Webnc\\wwwroot\\js\\main.js",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "Webnc\\wwwroot\\js\\main.js",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-29T14:50:23.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Webnc\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAwwGcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T00:56:28.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "CartViewComponent.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewComponents\\CartViewComponent.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewComponents\\CartViewComponent.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewComponents\\CartViewComponent.cs",
+              "RelativeToolTip": "Webnc\\ViewComponents\\CartViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T00:43:25.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "MenuHome.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewComponents\\MenuHome.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewComponents\\MenuHome.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewComponents\\MenuHome.cs",
+              "RelativeToolTip": "Webnc\\ViewComponents\\MenuHome.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T00:43:28.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T10:07:38.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ThongKe.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\ThongKe\\ThongKe.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\ThongKe\\ThongKe.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\ThongKe\\ThongKe.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\ThongKe\\ThongKe.cshtml",
+              "ViewState": "AQIAABABAAAAAAAAAAAUwC0BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T14:38:44.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "KiemTraQuyen.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\KiemTraQuyen.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Controllers\\KiemTraQuyen.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\KiemTraQuyen.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Controllers\\KiemTraQuyen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T12:51:41.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "VnPayService.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Services\\VnPayService.cs",
+              "RelativeDocumentMoniker": "Webnc\\Services\\VnPayService.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Services\\VnPayService.cs",
+              "RelativeToolTip": "Webnc\\Services\\VnPayService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T08:32:24.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ThongKeController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\ThongKeController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Controllers\\ThongKeController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\ThongKeController.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Controllers\\ThongKeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:37:58.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Webnc\\Services\\ProductService.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Services\\ProductService.cs",
+              "RelativeToolTip": "Webnc\\Services\\ProductService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:50:53.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "IVnPayService.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Services\\IVnPayService.cs",
+              "RelativeDocumentMoniker": "Webnc\\Services\\IVnPayService.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Services\\IVnPayService.cs",
+              "RelativeToolTip": "Webnc\\Services\\IVnPayService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T01:28:40.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "ChartService.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Services\\ChartService.cs",
+              "RelativeDocumentMoniker": "Webnc\\Services\\ChartService.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Services\\ChartService.cs",
+              "RelativeToolTip": "Webnc\\Services\\ChartService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:36:05.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Helpers\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Webnc\\Helpers\\AutoMapperProfile.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Helpers\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Webnc\\Helpers\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T04:28:02.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Index.cshtml",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAAAM8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T03:48:15.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T01:52:20.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\nhitr\\.nuget\\packages\\epplus\\7.2.1\\readme.txt",
+              "ToolTip": "C:\\Users\\nhitr\\.nuget\\packages\\epplus\\7.2.1\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-03T02:47:26.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Delete.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Delete.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Delete.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwBQAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T06:04:54.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\NhanViens\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\NhanViens\\Edit.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\NhanViens\\Edit.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\NhanViens\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwCQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T13:15:49.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\KhachHangAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\KhachHangAdmin\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\KhachHangAdmin\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\KhachHangAdmin\\Index.cshtml",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAkwGgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T03:27:04.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "_LayoutFooter.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\_LayoutFooter.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Shared\\_LayoutFooter.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\_LayoutFooter.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Shared\\_LayoutFooter.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T11:46:49.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "ThuongHieuAdminController.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\ThuongHieuAdminController.cs",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Controllers\\ThuongHieuAdminController.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Controllers\\ThuongHieuAdminController.cs",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Controllers\\ThuongHieuAdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T03:28:23.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T10:07:39.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "TuChoi.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\KiemTraQuyen\\TuChoi.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\KiemTraQuyen\\TuChoi.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\KiemTraQuyen\\TuChoi.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\KiemTraQuyen\\TuChoi.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T07:16:27.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T03:49:32.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\appsettings.json",
+              "RelativeDocumentMoniker": "Webnc\\appsettings.json",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\appsettings.json",
+              "RelativeToolTip": "Webnc\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-23T14:54:19.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Models\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Webnc\\Models\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Models\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Webnc\\Models\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAABABAAAAAAAAAIBJwAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:57:59.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Models\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "Webnc\\Models\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Models\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "Webnc\\Models\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AQIAANkAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:57:54.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Webnc\\appsettings.Development.json",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\appsettings.Development.json",
+              "RelativeToolTip": "Webnc\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-23T06:16:28.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Details.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Details.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T06:04:15.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\ThuongHieuAdmin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\ThuongHieuAdmin\\Edit.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\ThuongHieuAdmin\\Edit.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\ThuongHieuAdmin\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-16T03:45:37.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\ThuongHieuAdmin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\ThuongHieuAdmin\\Create.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\ThuongHieuAdmin\\Create.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\ThuongHieuAdmin\\Create.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAIBJwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-16T03:44:42.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\LoaiAdmin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\LoaiAdmin\\Create.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\LoaiAdmin\\Create.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\LoaiAdmin\\Create.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAwwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T14:13:32.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\KhachHangAdmin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\KhachHangAdmin\\Details.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\KhachHangAdmin\\Details.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\KhachHangAdmin\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T03:26:42.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\KhachHangAdmin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\KhachHangAdmin\\Edit.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\KhachHangAdmin\\Edit.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\KhachHangAdmin\\Edit.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAIwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T03:26:51.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Create.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Create.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\HangHoaAdmin\\Create.cshtml",
+              "ViewState": "AQIAAA4AAACAmZmZmZkvwBoAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T04:00:30.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Create.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Create.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\HoaDonAdmin\\Create.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T05:46:27.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "VnPaymentResponseModel.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\VnPaymentResponseModel.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewModels\\VnPaymentResponseModel.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewModels\\VnPaymentResponseModel.cs",
+              "RelativeToolTip": "Webnc\\ViewModels\\VnPaymentResponseModel.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwBgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T01:23:25.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\NhanViens\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\NhanViens\\Create.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\NhanViens\\Create.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\NhanViens\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T13:15:13.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\PhongBans\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\PhongBans\\Index.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\PhongBans\\Index.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\PhongBans\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAwwEEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T00:45:02.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\PhongBans\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\PhongBans\\Create.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\PhongBans\\Create.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\PhongBans\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T00:48:23.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\Trangs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\Trangs\\Create.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\Trangs\\Create.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\Trangs\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T01:21:21.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\PhongBans\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\PhongBans\\Edit.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\PhongBans\\Edit.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\PhongBans\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T00:49:04.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\Trangs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Areas\\Admin\\Views\\Trangs\\Edit.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Areas\\Admin\\Views\\Trangs\\Edit.cshtml",
+              "RelativeToolTip": "Webnc\\Areas\\Admin\\Views\\Trangs\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T10:14:06.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T01:21:50.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\Components\\MenuHome\\Default.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Shared\\Components\\MenuHome\\Default.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\Components\\MenuHome\\Default.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Shared\\Components\\MenuHome\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T00:52:44.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "StyleSheet.css",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\StyleSheet.css",
+              "RelativeDocumentMoniker": "Webnc\\wwwroot\\css\\StyleSheet.css",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\StyleSheet.css",
+              "RelativeToolTip": "Webnc\\wwwroot\\css\\StyleSheet.css",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-29T14:16:02.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\Components\\MenuLoai\\Default.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Shared\\Components\\MenuLoai\\Default.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\Components\\MenuLoai\\Default.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Shared\\Components\\MenuLoai\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T13:51:40.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\Components\\MenuTH\\Default.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Shared\\Components\\MenuTH\\Default.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Shared\\Components\\MenuTH\\Default.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Shared\\Components\\MenuTH\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T13:57:57.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Webnc\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Webnc\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-27T11:35:51.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "Webnc\\Properties\\serviceDependencies.json",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "Webnc\\Properties\\serviceDependencies.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-30T03:18:16.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Webnc\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Webnc\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-30T03:18:13.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "Webnc\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "Webnc\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAAIoAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-29T14:16:38.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "MenuTH.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewComponents\\MenuTH.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewComponents\\MenuTH.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewComponents\\MenuTH.cs",
+              "RelativeToolTip": "Webnc\\ViewComponents\\MenuTH.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwBwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:48:24.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "MenuLoaiViewComponent.cs",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewComponents\\MenuLoaiViewComponent.cs",
+              "RelativeDocumentMoniker": "Webnc\\ViewComponents\\MenuLoaiViewComponent.cs",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\ViewComponents\\MenuLoaiViewComponent.cs",
+              "RelativeToolTip": "Webnc\\ViewComponents\\MenuLoaiViewComponent.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:48:28.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Webnc\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Webnc\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAACBjwEgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T00:58:10.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "WebncContext.cs",
+              "DocumentMoniker": "D:\\HUFLIT\\Nam4\\1. DoAn\\Webnc\\Webnc\\Webnc\\Data\\WebncContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\HUFLIT\\Nam4\\1. DoAn\\Webnc\\Webnc\\Webnc\\Data\\WebncContext.cs",
+              "ToolTip": "D:\\HUFLIT\\Nam4\\1. DoAn\\Webnc\\Webnc\\Webnc\\Data\\WebncContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\HUFLIT\\Nam4\\1. DoAn\\Webnc\\Webnc\\Webnc\\Data\\WebncContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:08:44.123Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

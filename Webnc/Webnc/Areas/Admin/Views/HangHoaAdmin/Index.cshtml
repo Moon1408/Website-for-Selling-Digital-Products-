@@ -1,0 +1,249 @@
+﻿@model IEnumerable<Webnc.Models.HangHoa>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="card" style="margin: 24px">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <h5 class="card-header" style="margin-right: 10%">Danh Sách Hàng Hóa</h5>
+                </th>
+                <th style="text-align:right ; padding-right:28px">
+                    <p class="btn btn-info" style="margin-right: 10px;">
+                        <a href="#" data-toggle="modal" data-target="#importExcelModal" style="color: white; display: flex; align-items: center;">
+                            <img src="~/Hinh/Nhap.png" class="menu-icon" style="width: 25px; height: 20px; margin-right: 2px;">
+                            Nhập Excel
+                        </a>
+                    </p>
+
+                    <!-- Modal -->
+                    @*   <div class="modal fade" id="importExcelModal" tabindex="-1" role="dialog" aria-labelledby="importExcelModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="importExcelModalLabel">Nhập Excel</h5>
+                    @*  Đề hiển thị lỗi  *@
+                    @*    @if (ViewData.ModelState.ErrorCount > 0)
+                    {
+                    <div class="validation-summary-errors text-danger">
+                    <ul>
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                    <li>@error.ErrorMessage</li>
+                    }
+                    </ul>
+                    </div>
+                    } *@
+                    @*
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    <form asp-action="ImportExcel" asp-controller="NhanViens" asp-area="Admin" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                    <label for="file">Chọn file Excel</label>
+                    <input type="file" name="file" class="form-control" required />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Tải lên</button>
+                    </form>
+                    </div>
+                    </div>
+                    </div>
+                    </div> *@
+                      <div class="modal fade" id="importExcelModal" tabindex="-1" role="dialog" aria-labelledby="importExcelModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="importExcelModalLabel">Nhập Excel</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: none; border: none; font-size: 1.5rem;">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Display error messages -->
+                                    <div id="error-messages" class="validation-summary-errors text-danger" style="display:none;">
+                                        <ul></ul>
+                                    </div>
+                                    <!-- Gợi ý tệp mẫu -->
+                                    <div style="margin-bottom: 5px;">
+                                        <a href="~/Excel/HangHoa.xlsx" download="HangHoa.xlsx" style="text-decoration: none;">
+                                            Tải tệp mẫu cơ bản
+                                            <span style="font-style: italic; color: #666;"> để nhập những thông tin cơ bản.</span>
+                                        </a>
+                                    </div>
+                                    <!-- Form for file upload -->
+                                    <form id="uploadForm" enctype="multipart/form-data">
+                                        <div class="form-group" style="margin-bottom: 10px;">
+                                            <label for="file">Chọn file Excel (.xlsx)</label>
+                                            <input type="file" name="file" class="form-control" id="file" />
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Tải lên</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    @*  ------  *@
+                    <p class="btn btn-success" style="margin-right: 10px;">
+                        <a asp-action="ExportExcel" asp-controller="HangHoaAdmin" asp-area="Admin" style="color: white; display: flex; align-items: center;">
+                            <img src="~/Hinh/Xuat.png" class="menu-icon" style="width: 25px; height: 20px; margin-right: 2px;">
+                            Xuất Excel
+                        </a>
+                    </p>
+                    <p class="btn btn-outline-primary white-hover-link">
+                        <a asp-action="Create">Thêm</a>
+                    </p>
+                </th>
+            </tr>
+        </thead>
+    </table>
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div id="error-message" class="alert alert-danger" style="display: inline-block; max-width: 500px; margin-left: 20px;">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+    <div class="card-body">
+        <div class="table-responsive text-nowrap">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Tên Hàng Hóa</th>
+                        <th>Đơn Giá</th>
+                        <th>Hình Ảnh</th>
+                        <th>Mô Tả</th>
+                        <th>Số Lượng Tồn</th>
+                        <th>Loại Hàng</th>
+                        <th>Thương Hiệu</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MaHh)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TenHh)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DonGia)
+                            </td>
+                            <td>
+                                <img src="~/Hinh/HangHoa/@System.IO.Path.GetFileName(item.Hinh)" alt="@item.TenHh" style="width: 100px; height: auto;" />
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MoTa)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Sl)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MaLoaiNavigation.TenLoai)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MaThNavigation.TenTh)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.MaHh" class="btn btn-primary">Sửa</a>
+                                <a asp-action="Details" asp-route-id="@item.MaHh" class="btn btn-warning">Chi Tiết</a>
+                                <a asp-action="Delete" asp-route-id="@item.MaHh" class="btn btn-danger">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/admin1.js"> </script>
+}
+<script>
+    $(document).ready(function () {
+        // Mở modal khi nhấn vào nút "Nhập Excel"
+        $('#openExcelModalBtn').on('click', function (e) {
+            e.preventDefault();
+            $('#importExcelModal').modal('show');
+        });
+
+        // Bắt sự kiện submit của form
+        $('#uploadForm').on('submit', function (e) {
+            e.preventDefault();
+
+            var formData = new FormData(this);
+
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("ImportExcel", "HangHoaAdmin")',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    if (response.success) {
+                        // Hiển thị thông báo thành công bằng SweetAlert
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Import Excel thành công',
+                            toast: true,
+                            position: 'top-end',
+                            showConfirmButton: false,
+                            timer: 1500,
+                            timerProgressBar: true,
+                            didOpen: (toast) => {
+                                toast.addEventListener('mouseenter', Swal.stopTimer);
+                                toast.addEventListener('mouseleave', Swal.resumeTimer);
+                            }
+                        }).then((result) => {
+                            // Sau khi đóng thông báo, chuyển hướng về trang Index của NhanViens
+                            window.location.href = '@Url.Action("Index", "HangHoaAdmin")';
+                        });
+                    } else {
+                        // Hiển thị thông báo lỗi
+                        var errorMessages = $('#error-messages');
+                        errorMessages.find('ul').empty();
+                        if (response.errors && response.errors.length > 0) {
+                            $.each(response.errors, function (index, error) {
+                                errorMessages.find('ul').append('<li>' + error + '</li>');
+                            });
+                            errorMessages.show();
+                        } else {
+                            errorMessages.find('ul').append('<li>Đã xảy ra lỗi. Vui lòng thử lại.</li>');
+                            errorMessages.show();
+                        }
+
+                        // Ẩn thông báo lỗi sau 800ms
+                        setTimeout(function () {
+                            errorMessages.hide();
+                        }, 800);
+                    }
+                },
+                error: function () {
+                    // Xử lý lỗi chung
+                    var errorMessages = $('#error-messages');
+                    errorMessages.find('ul').empty().append('<li>Đã xảy ra lỗi. Vui lòng thử lại.</li>');
+                    errorMessages.show();
+
+                    // Ẩn thông báo lỗi sau 800ms
+                    setTimeout(function () {
+                        errorMessages.hide();
+                    }, 800);
+                }
+            });
+
+            // Ngăn modal đóng khi không được phép
+            $('#importExcelModal').modal({ backdrop: 'static', keyboard: false });
+        });
+    });
+</script>

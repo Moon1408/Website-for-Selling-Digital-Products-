@@ -1,0 +1,87 @@
+﻿@model Webnc.ViewModels.HoaDonDetailsViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Chi Tiết Hóa Đơn";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2 style="text-align: center; margin-top: 15px;">Chi Tiết Hóa Đơn</h2>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Thông Tin Hóa Đơn</h5>
+            <dl class="row">
+                <dt class="col-sm-3">Mã Hóa Đơn</dt>
+                <dd class="col-sm-9">@Model.HoaDon.MaHd</dd>
+
+                <dt class="col-sm-3">Mã Khách Hàng</dt>
+                <dd class="col-sm-9">@Model.HoaDon.MaKhNavigation.MaKh</dd>
+
+                <dt class="col-sm-3">Ngày Đặt</dt>
+                <dd class="col-sm-9">@Model.HoaDon.NgayDat</dd>
+
+                <dt class="col-sm-3">Họ Tên</dt>
+                <dd class="col-sm-9">@Model.HoaDon.HoTen</dd>
+
+                <dt class="col-sm-3">Địa Chỉ</dt>
+                <dd class="col-sm-9">@Model.HoaDon.DiaChi</dd>
+
+                <dt class="col-sm-3">Điện Thoại</dt>
+                <dd class="col-sm-9">@Model.HoaDon.DienThoai</dd>
+
+                <dt class="col-sm-3">Cách Thanh Toán</dt>
+                <dd class="col-sm-9">@Model.HoaDon.CachThanhToan</dd>
+
+                <dt class="col-sm-3">Trạng Thái Thanh Toán</dt>
+                <dd class="col-sm-9">@Model.HoaDon.TrangThaiTt</dd>
+
+                <dt class="col-sm-3">Thành Tiền</dt>
+                <dd class="col-sm-9">@string.Format("{0:n0} đ", Model.HoaDon.ThanhTien)</dd>
+
+                <dt class="col-sm-3">Phí Vận Chuyển</dt>
+                <dd class="col-sm-9">@string.Format("{0:n0} đ", Model.HoaDon.PhiVanChuyen)</dd>
+
+                <dt class="col-sm-3">Tổng Tiền</dt>
+                <dd class="col-sm-9">@string.Format("{0:n0} đ", Model.HoaDon.TongTien)</dd>
+
+
+                <dt class="col-sm-3">Ghi Chú</dt>
+                <dd class="col-sm-9">@Model.HoaDon.GhiChu</dd>
+
+                <dt class="col-sm-3">Trạng Thái Đơn Hàng</dt>
+                <dd class="col-sm-9">@Model.HoaDon.MaTrangThaiNavigation.TenTrangThai</dd>
+            </dl>
+
+            <h5 class="card-title">Chi Tiết Sản Phẩm</h5>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Mã Sản Phẩm</th>
+                        <th>Tên Sản Phẩm</th>
+                        <th>Số Lượng</th>
+                        <th>Đơn Giá</th>
+                        <th>Tiền Giảm Giá</th>
+                        <th>Tiền Cuối Cùng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.ChiTietHds)
+                    {
+                        <tr>
+                            <td>@item.MaHh</td>
+                            <td>@item.MaHhNavigation.TenHh</td>
+                            <td>@item.SoLuong</td>
+                            <td>@string.Format("{0:n0} đ", item.DonGia)</td>
+                            <td>@string.Format("{0:n0} đ", @item.TienGg)</td>
+                            <td>@string.Format("{0:n0} đ", @item.TienCuoiCung)</td>
+                          
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="text-center">
+        <a asp-action="Index" style="margin-top:15px; margin-bottom: 15px;" class="btn btn-outline-dark">Quay Về</a>
+    </div>
+</div>

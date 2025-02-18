@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Webnc.ViewModels.OrderListViewModel>
+
+@{
+    ViewData["Title"] = "Danh sách đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h1>Danh sách đơn hàng của bạn</h1>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Mã đơn hàng</th>
+                <th>Ngày đặt</th>
+                <th>Tổng tiền</th>
+                <th>Trạng thái</th>
+                <th>Cách thanh toán</th>
+                <th>Chi tiết</th>
+                <th>Hủy đơn hàng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.MaHd</td>
+                    <td>@order.NgayDat.ToString("dd/MM/yyyy")</td>
+                    <td>@order.TongTien.ToString("N0") VND</td>
+                    <td>@order.TenTrangThai</td>
+                    <td>@order.CachThanhToan</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@order.MaHd" class="btn btn-info">Xem chi tiết</a>
+                    </td>
+                    <td>
+                        @if (order.TenTrangThai != "Đã giao hàng" && order.TenTrangThai != "Đã hủy" && order.CachThanhToan != "VNPAY")
+                        {
+                            <form asp-action="CancelOrder" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="@order.MaHd" />
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn hủy đơn hàng này không?');">Hủy</button>
+                            </form>
+                        }
+                        else if (order.TenTrangThai == "Đã hủy")
+                        {
+                            <span class="text-muted">Đã hủy</span>
+                        }
+                        else if (order.CachThanhToan == "VNPAY")
+                        {
+                            <span class="text-muted">Không thể hủy (VNPAY)</span>
+                        }
+                        else
+                        {
+                            <span class="text-muted">Không thể hủy</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

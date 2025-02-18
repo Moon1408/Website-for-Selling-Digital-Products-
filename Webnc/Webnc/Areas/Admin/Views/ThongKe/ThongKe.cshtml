@@ -1,0 +1,301 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Thống Kê";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .rectangle {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            width: calc(50% - 40px);
+            float: left;
+            box-sizing: border-box;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+            .rectangle:hover {
+                transform: scale(1.05);
+            }
+
+        .clear-fix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        h1 {
+            text-align: center;
+            color: #343a40;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #495057;
+        }
+
+        canvas {
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+
+        #productCount, #customerCount {
+            font-size: 1.5em;
+            color: #007bff;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .chart-container {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .button-group {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+            .button-group button {
+                margin: 5px;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                border: none;
+                background-color: #FF9999;
+                color: white;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+
+                .button-group button:hover {
+                    background-color: #0056b3;
+                }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="button-group">
+            <button onclick="toggleChart('productChartContainer')">Thống kê theo Sản Phẩm</button>
+            <button onclick="toggleChart('categoryChartContainer')">Thống kê theo Loại</button>
+            <button onclick="toggleChart('brandChartContainer')">Thống kê theo Thương Hiệu</button>
+            <button onclick="toggleChart('orderChartContainer')">Thống kê Đơn Hàng</button>
+            <button onclick="toggleChart('customerCountContainer')">Thống kê Khách Hàng</button>
+        </div>
+
+        <div id="productChartContainer" class="chart-container">
+            <h2>Thống kê theo Sản Phẩm</h2>
+            <canvas id="productChart" style="width: 800px; height: 550px;"></canvas>
+        </div>
+
+        <div id="categoryChartContainer" class="chart-container">
+            <h2>Thống kê theo Loại</h2>
+            <canvas id="categoryChart" style="width: 800px; height: 550px;"></canvas>
+        </div>
+
+        <div id="brandChartContainer" class="chart-container">
+            <h2>Thống kê theo Thương Hiệu</h2>
+            <canvas id="brandChart" style="width: 800px; height: 550px;"></canvas>
+        </div>
+
+        <div id="orderChartContainer" class="chart-container">
+            <h2>Thống kê Đơn Hàng</h2>
+            <canvas id="orderChart" style="width: 800px; height: 550px;"></canvas>
+        </div>
+
+        <div id="customerCountContainer" class="chart-container">
+            <h2>Thống kê Khách Hàng</h2>
+            <div id="customerCount"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        function toggleChart(containerId) {
+            const containers = document.querySelectorAll('.chart-container');
+            containers.forEach(container => {
+                if (container.id === containerId) {
+                    container.style.display = container.style.display === 'none' ? 'block' : 'none';
+                } else {
+                    container.style.display = 'none';
+                }
+            });
+
+            switch (containerId) {
+                case 'productChartContainer':
+                    renderProductChart();
+                    break;
+                case 'categoryChartContainer':
+                    renderCategoryChart();
+                    break;
+                case 'brandChartContainer':
+                    renderBrandChart();
+                    break;
+                case 'orderChartContainer':
+                    renderOrderChart();
+                    break;
+                case 'customerCountContainer':
+                    renderCustomerCount();
+                    break;
+            }
+        }
+
+        async function fetchData(url) {
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        }
+
+        async function renderProductChart() {
+            const data = await fetchData('/ThongKe/SoLuongSanPham');
+            const ctx = document.getElementById('productChart').getContext('2d');
+            const labels = ['Số Lượng Sản Phẩm'];
+            const values = [data];
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Số Lượng Sản Phẩm',
+                        data: values,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        async function renderCategoryChart() {
+            const data = await fetchData('/ThongKe/SoLuongTheoLoai');
+            const ctx = document.getElementById('categoryChart').getContext('2d');
+            const labels = data.map(d => d.tenLoai);
+            const values = data.map(d => d.soLuongSanPham);
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Số Lượng Sản Phẩm',
+                        data: values,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        async function renderBrandChart() {
+            const data = await fetchData('/ThongKe/SoLuongTheoThuongHieu');
+            const ctx = document.getElementById('brandChart').getContext('2d');
+            const labels = data.map(d => d.tenThuongHieu);
+            const values = data.map(d => d.soLuongSanPham);
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Số Lượng Sản Phẩm',
+                        data: values,
+                        backgroundColor: 'rgba(153, 102, 255, 0.2)',
+                        borderColor: 'rgba(153, 102, 255, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        async function renderOrderChart() {
+            const data = await fetchData('/ThongKe/DuLieuDonHangTheoTrangThai');
+            const ctx = document.getElementById('orderChart').getContext('2d');
+            const labels = data.map(d => d.tenTrangThai);
+            const values = data.map(d => d.soLuongDonHang);
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Số Lượng Đơn Hàng',
+                        data: values,
+                        backgroundColor: 'rgba(255, 159, 64, 0.2)',
+                        borderColor: 'rgba(255, 159, 64, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        async function renderCustomerCount() {
+            const count = await fetchData('/ThongKe/SoLuongKhachHang');
+            document.getElementById('customerCount').innerText = `Tổng số khách hàng: ${count}`;
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.chart-container').forEach(container => {
+                container.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
+

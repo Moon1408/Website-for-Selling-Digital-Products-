@@ -1,0 +1,53 @@
+﻿@model Webnc.Models.KhachHang
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="col-md-6" style="margin:25px; width:96%">
+    <div class="card mb-4">
+        <h4 class="card-header" style="text-align:center">Chi tiết khách hàng</h4>
+        <div class="card-body">
+            <div class="mt-2 mb-3">
+                <div class="card-body">
+                    <div class="mt-2 mb-3">
+                        <h5>Tên đăng nhập</h5>
+                        <p class="form-control-static">@Model.TenDn</p>
+                    </div>
+                    <div class="mt-2 mb-3">
+                        <h5>Mật khẩu</h5>
+                        <p class="form-control-static">@Model.MatKhau</p>
+                    </div>
+                    <div class="mt-2 mb-3">
+                        <h5>Họ tên</h5>
+                        <p class="form-control-static">@Model.HoTen</p>
+                    </div>
+                    <div class="mt-2 mb-3">
+                        <h5>Địa chỉ</h5>
+                        <p class="form-control-static">@Model.DiaChi</p>
+                    </div>
+                    <div class="mt-2 mb-3">
+                        <h5>Số điện thoại</h5>
+                        <p class="form-control-static">@Model.DienThoai</p>
+                    </div>
+                    <div class="mt-2 mb-3">
+                        <h5>Email</h5>
+                        <p class="form-control-static">@Model.Email</p>
+                    </div>
+                    <div class="mt-2 mb-3">
+                        <h5>Hiệu Lực</h5>
+                        <p class="form-control-static">@Model.HieuLuc</p>
+                    </div>
+                    </br>
+                    <div style="text-align:right">
+                        <div class="btn btn-outline-secondary white-hover-link" style="margin-left: 20px;">
+                            <a asp-action="Index">Trở về</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

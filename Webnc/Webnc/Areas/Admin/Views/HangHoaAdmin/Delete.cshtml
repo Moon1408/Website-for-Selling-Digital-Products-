@@ -1,0 +1,44 @@
+﻿@model Webnc.Models.HangHoa
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="col-md-8 mx-auto">
+    <div class="card my-4">
+        <h5 class="card-header text-center">Xóa Hàng Hóa</h5>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-4">Tên Hàng Hóa:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.TenHh)</dd>
+                <dt class="col-sm-4">Đơn Giá:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.DonGia)</dd>
+                <dt class="col-sm-4">Hình Ảnh:</dt>
+                <dd class="col-sm-8">
+                    <img src="~/Hinh/HangHoa/@System.IO.Path.GetFileName(Model.Hinh)" alt="Hình ảnh" class="img-thumbnail" />
+
+                </dd>
+                <dt class="col-sm-4">Mô Tả:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.MoTa)</dd>
+                <dt class="col-sm-4">Số Lượng Tồn:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Sl)</dd>
+                <dt class="col-sm-4">Loại Hàng:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.MaLoaiNavigation.TenLoai)</dd>
+                <dt class="col-sm-4">Thương Hiệu:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.MaThNavigation.TenTh)</dd>
+            </dl>
+        </div>
+        <form asp-action="Delete" style="text-align: right; margin-bottom: 20px;">
+            <!-- Nút Delete -->
+            <input type="submit" value="Xóa" class="btn btn-danger" style="margin-right: 10px;" />
+            <!-- Nút Back to List -->
+            <a asp-action="Index" class="btn btn-outline-dark" style="margin-right: 10px;">Quay về </a>
+        </form>
+
+
+
+    </div>
+</div>

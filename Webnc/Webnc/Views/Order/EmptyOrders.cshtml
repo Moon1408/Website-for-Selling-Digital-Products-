@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Danh sách đơn hàng của bạn trống";
+}
+
+<div class="container my-5 text-center">
+    <h1 class="display-4">Danh sách đơn hàng của bạn trống</h1>
+    <p class="lead">Bạn chưa có đơn hàng nào. Hãy khám phá thêm sản phẩm và thêm vào mua sắm ngay nha!</p>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-primary btn-lg mt-4">
+        <i class="fas fa-shopping-basket"></i> Tiếp tục mua sắm
+    </a>
+</div>
+
+<style>
+    .container {
+        max-width: 600px;
+    }
+
+    .display-4 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    .lead {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+
+    .btn-primary {
+        font-size: 1.25rem;
+        padding: 10px 20px;
+    }
+</style>

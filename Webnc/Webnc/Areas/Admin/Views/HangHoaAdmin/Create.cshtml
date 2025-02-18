@@ -1,0 +1,76 @@
+﻿@model Webnc.ViewModels.HangHoaVM
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-md-6" style="margin:25px; width:96%">
+    <div class="card mb-4">
+        <h5 class="card-header" style="text-align:center">Thêm Hàng Hóa</h5>
+
+        <div class="card-body">
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="mt-2 mb-3">
+                    <h6>Tên Hàng Hóa</h6>
+                    <input asp-for="TenHH" class="form-control" />
+                    <span asp-validation-for="TenHH" class="text-danger"></span>
+                </div>
+                <div class="mt-2 mb-3">
+                    <h6>Loại Hàng</h6>
+                    <select asp-for="MaLoai" class="form-control" asp-items="ViewBag.MaLoai"></select>
+                </div>
+                <div class="mt-2 mb-3">
+                    <h6>Đơn giá</h6>
+                    <input asp-for="DonGia" class="form-control" />
+                    <span asp-validation-for="DonGia" class="text-danger"></span>
+                </div>
+
+                <div class="mt-2 mb-3">
+                    <h6>Hình Ảnh</h6>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <input asp-for="HinhFile" class="form-control" type="file" onchange="previewImage(this)" />
+                            <span asp-validation-for="HinhFile" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-7">
+                            <img id="preview-image" src="#" alt="Preview Image" style="max-width: 550px; margin-top: 10px; display: none;" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-2 mb-3">
+                    <h6>Mô Tả Ngắn</h6>
+                    <input asp-for="MoTaNgan" class="form-control" />
+                    <span asp-validation-for="MoTaNgan" class="text-danger"></span>
+                </div>
+                <div class="mt-2 mb-3">
+                    <h6>Thương Hiệu</h6>
+                    <select asp-for="MaTh" class="form-control" asp-items="ViewBag.MaTh"></select>
+                </div>
+                <div class="mt-2 mb-3">
+                    <h6>Số Lượng Tồn</h6>
+                    <input asp-for="SoLuongTon" class="form-control" />
+                    <span asp-validation-for="SoLuongTon" class="text-danger"></span>
+                </div>
+                <div style="text-align:right">
+                    <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-outline-dark">Quay về</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function previewImage(input) {
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            $('#preview-image').attr('src', e.target.result);
+            $('#preview-image').show(); // Hiển thị hình ảnh
+        }
+        reader.readAsDataURL(input.files[0]);
+    }
+</script>

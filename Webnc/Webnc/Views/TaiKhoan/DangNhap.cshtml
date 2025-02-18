@@ -1,0 +1,119 @@
+﻿@model Webnc.ViewModels.LoginVM
+@{
+    ViewData["Title"] = "DangNhap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Breadcrumb Start -->
+<div class="container-fluid">
+    <div class="row px-xl-5">
+        <div class="col-12">
+            <nav class="breadcrumb bg-light mb-30">
+                <a asp-controller="Home" asp-action="index" class="breadcrumb-item text-dark">Trang chủ</a>
+                <span class="breadcrumb-item active">Đăng nhập</span>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-4 mx-auto">
+    <div class="text-center">
+        <h3>  Đăng nhập</h3>
+    </div>
+        <form asp-route-returnurl="@ViewBag.ReturnUrl" id="loginForm" >
+        <div class="bg-light p-30 mb-5">          
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        Tên đăng nhập*
+                        <input asp-for="@Model.UserName" class="form-control" >
+                    </div>
+                    <div class="col-md-12 form-group">
+                        Mật khẩu*
+                        <input asp-for="@Model.Password" class="form-control" >
+                    </div>
+                    <div class="col-md-12 form-group d-flex align-items-center justify-content-between mt-3">
+                        <button class="btn btn-outline-warning w-100 btn-register" style="height:45px;" type="submit">Đăng nhập</button>
+                    </div>
+
+                    <div class="col-md-12 form-group d-flex align-items-center justify-content-center">
+                        <span>Chưa có tài khoản?</span>
+                        <span style="margin-left: 10px;">
+                        <a asp-controller="TaiKhoan" asp-action="DangKy" class="font-weight-bold">
+                                Đăng ký
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+    </form>
+        </div>
+
+
+<script>
+    document.querySelector('#loginForm').addEventListener('submit', async function (event) {
+        event.preventDefault();
+        const form = event.target;
+        const formData = new FormData(form);
+        const url = form.action;
+        const userName = formData.get('UserName');
+        const password = formData.get('Password');
+
+        // Check if the user can login
+        const response = await fetch('/TaiKhoan/DangNhap?userName=' + userName + '&password=' + password, {
+            method: 'POST'
+
+        });
+        // try {
+        //     const form = event.target;
+        //     const url = form.action;
+        //     const formData = new FormData(form);
+        //     const response = await fetch(url, {
+        //         method: 'POST',
+        //         body: formData
+        //     });
+        // }
+
+        if (response.ok) {
+
+            const data = await response.json();
+            if (data.success) {
+                Swal.fire({
+                    icon: 'success',
+                    title: data.message,
+                    toast: true,
+                    position: 'top-end',
+                    showConfirmButton: false,
+                    timer: 3000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+                setTimeout(function () {
+                    {
+ 
+                        window.location.href = '/Home/Index';
+                    } 
+                }, 1000);
+            } else {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Lỗi',
+                    text: data.message,
+                    timer: 1000,
+                    showConfirmButton: false
+                });
+            }
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Lỗi',
+                text: 'Đã xảy ra lỗi trong quá trình đăng nhập',
+                timer: 1000,
+                showConfirmButton: false
+            });
+        }
+    });
+</script>
+

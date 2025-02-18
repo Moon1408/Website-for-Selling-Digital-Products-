@@ -1,0 +1,69 @@
+﻿@model Webnc.Models.GiamGium
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="col-md-8 mx-auto">
+    <div class="card my-4">
+        <h5 class="card-header text-center">Chỉnh Sửa Giảm Giá</h5>
+         <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="MaGg" />
+
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @TempData["ErrorMessage"]
+                    </div>
+                }
+                <div class="card-body">
+                    <div class="mt-2 mb-3">
+                        <h5>Tên giảm giá</h5>
+                        <input asp-for="TenGg" class="form-control" />
+                    </div>
+
+                    <div class="mt-2 mb-3">
+                        <h5>Ngày bắt đầu</h5>
+                        <input asp-for="NgayBd" class="form-control" />
+                    </div>
+
+                    <div class="mt-2 mb-3">
+                        <h5>Ngày kết thúc</h5>
+                        <input asp-for="NgayKt" class="form-control" />
+                    </div>
+
+                    <div class="mt-2 mb-3">
+                        <h5>Đơn giá</h5>
+                        <input asp-for="DonGia" class="form-control" />
+                    </div>
+
+                    <div class="mt-2 mb-3">
+                        <h5>Giá áp dụng</h5>
+                        <input asp-for="GiaAd" class="form-control" />
+                    </div>
+
+                    <div class="mt-2 mb-3">
+                        <h5>Code</h5>
+                        <input asp-for="Code" class="form-control" />
+                    </div>
+
+                    <div class="mt-2 mb-3">
+                        <h5>Số lượng</h5>
+                        <input asp-for="Sl" class="form-control" />
+                    </div>
+                </div>
+       
+                <div class="text-center">
+                    <input type="submit" value="Lưu" class="btn btn-primary mx-2" />
+                    <a asp-action="Index" class="btn btn-outline-dark mx-2">Quay Về</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@section scripts {
+    <script src="~/js/admin.js"></script>
+}
+

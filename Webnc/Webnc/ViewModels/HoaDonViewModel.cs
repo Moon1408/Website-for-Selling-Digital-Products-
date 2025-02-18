@@ -1,0 +1,32 @@
+﻿using Webnc.Models;
+
+namespace Webnc.ViewModels
+{
+    public class HoaDonViewModel
+    {
+        public int MaHd { get; set; }
+        public int MaKh { get; set; }
+        public DateTime NgayDat { get; set; }
+        public string? HoTen { get; set; }
+        public string DiaChi { get; set; } = null!;
+        public string? DienThoai { get; set; }
+        public string CachThanhToan { get; set; } = null!;
+        public string TrangThaiTt { get; set; } = null!;
+        public double ThanhTien { get; set; }
+        public double PhiVanChuyen { get; set; }
+        public double TongTien { get; set; }
+        public string? GhiChu { get; set; }
+        public int MaTrangThai { get; set; }
+
+        public virtual KhachHang MaKhNavigation { get; set; } = null!;
+        public virtual TrangThai MaTrangThaiNavigation { get; set; } = null!;
+    }
+
+    public class UpdateTrangThaiViewModel
+    {
+        public int MaHd { get; set; }
+        public int MaTrangThai { get; set; }
+    }
+
+}
+

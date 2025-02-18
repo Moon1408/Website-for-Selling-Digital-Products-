@@ -1,0 +1,110 @@
+﻿@model Webnc.ViewModels.RegisterVM
+@{
+    ViewData["Title"] = "DangKy";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<!-- Breadcrumb Start -->
+<div class="container-fluid">
+    <div class="row px-xl-5">
+        <div class="col-12">
+            <nav class="breadcrumb bg-light mb-30">
+                <a asp-controller="Home" asp-action="index" class="breadcrumb-item text-dark">Trang chủ</a>
+                <span class="breadcrumb-item active">Đăng ký</span>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-4 mx-auto">
+    <div class="text-center">
+        <h3>  Đăng ký</h3>
+    </div>
+    <form asp-action="DangKy" enctype="multipart/form-data" class="d-flex flex-column align-items-center" >
+        <div class="bg-light p-30 mb-5">
+           @*  Đề hiển thị lỗi  *@
+            @if (ViewData.ModelState.ErrorCount > 0)
+            {
+                <div class="validation-summary-errors text-danger">
+                    <ul>
+                        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                        {
+                            <li>@error.ErrorMessage</li>
+                        }
+                    </ul>
+                </div>
+            }
+            <div class="bg-light p-3 mb-5">
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        Tên đăng nhập*
+                        <input asp-for="@Model.TenDN" class="form-control" >
+                    </div>
+                
+                    <div class="col-md-12 form-group">
+                        Mật khẩu*
+                        <input asp-for="@Model.MatKhau" class="form-control">
+                    </div>
+                    <div class="col-md-12 form-group">
+                        Họ tên*
+                        <input asp-for="@Model.HoTen" class="form-control" />
+
+                    </div>
+                    <div class="col-md-12 form-group">
+                        Địa chỉ
+                        <input asp-for="@Model.DiaChi" class="form-control" />
+
+                    </div>
+                    <div class="col-md-12 form-group">
+                        Điện thoại*
+                        <input asp-for="@Model.DienThoai" class="form-control" />
+
+                    </div>
+                    <div class="col-md-12 form-group">
+                        Email*
+                        <input asp-for="@Model.Email" class="form-control" />
+                    </div>
+
+                    <div class="col-md-12 form-group d-flex align-items-center justify-content-between mt-3">
+                        <button class="btn btn-outline-warning w-100 btn-register" style="height:45px;" type="submit">Đăng ký</button>
+                    </div>
+
+                    <div class="col-md-12 form-group d-flex align-items-center justify-content-center">
+                        <span>Đã có tài khoản?</span>
+                        <span style="margin-left: 10px;">
+                            <a asp-controller="TaiKhoan" asp-action="DangNhap" class="font-weight-bold">
+                                Đăng nhập
+                            </a>
+                          @*   <a href="@Url.Action("Login", "Account")" class="font-weight-bold">Đăng nhập</a> *@
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
+<style>
+    .btn-register {
+        color: #ffc107; /* Màu chữ ban đầu */
+        transition: all 0.3s ease;
+    }
+
+        .btn-register:hover {
+            background-color: #ffc107; /* Màu nền khi hover */
+            color: #fff; /* Màu chữ khi hover */
+        }
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+            var errorMessages = document.querySelector('.validation-summary-errors');
+            if (errorMessages) {
+                errorMessages.style.display = 'none';
+            }
+        }, 5000); // 5000 ms = 5 giây
+    });
+</script>
+

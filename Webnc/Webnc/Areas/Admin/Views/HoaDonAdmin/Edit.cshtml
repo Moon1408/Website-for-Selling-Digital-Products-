@@ -1,0 +1,141 @@
+﻿@model Webnc.ViewModels.HoaDonViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Edit HoaDon";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-md-8 mx-auto">
+    <div class="card my-4">
+        <h5 class="card-header text-center">Chỉnh Sửa Hóa Đơn</h5>
+
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="MaHd" />
+
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @TempData["ErrorMessage"]
+                    </div>
+                }
+
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Mã Khách Hàng:</label>
+                    <div class="col-sm-8">
+                        <input asp-for="MaKh" class="form-control" readonly />
+                        <span asp-validation-for="MaKh" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Ngày Đặt:</label>
+                    <div class="col-sm-8">
+                        <input asp-for="NgayDat" class="form-control" readonly />
+                        <span asp-validation-for="NgayDat" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Họ Tên:</label>
+                    <div class="col-sm-8">
+                        <input asp-for="HoTen" class="form-control" readonly />
+                        <span asp-validation-for="HoTen" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Địa Chỉ:</label>
+                    <div class="col-sm-8">
+                        <input asp-for="DiaChi" class="form-control" readonly />
+                        <span asp-validation-for="DiaChi" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Điện Thoại:</label>
+                    <div class="col-sm-8">
+                        <input asp-for="DienThoai" class="form-control" readonly />
+                        <span asp-validation-for="DienThoai" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Cách Thanh Toán:</label>
+                    <div class="col-sm-8">
+                        <input asp-for="CachThanhToan" class="form-control" readonly />
+                        <span asp-validation-for="CachThanhToan" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Trạng Thái:</label>
+                    <div class="col-sm-8">
+                        <input asp-for="TrangThaiTt" class="form-control" readonly />
+                        <span asp-validation-for="TrangThaiTt" class="text-danger"></span>
+                    </div>
+                </div>
+
+                @*  <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Thành Tiền:</label>
+                <div class="col-sm-8">
+                <input asp-for="ThanhTien" class="form-control" readonly />
+                <span asp-validation-for="ThanhTien" class="text-danger"></span>
+                </div>
+                </div> *@
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Thành Tiền:</label>
+                    <div class="col-sm-8">
+                        <input value="@string.Format("{0:n0} đ", Model.ThanhTien)" class="form-control" readonly />
+                        <span asp-validation-for="ThanhTien" class="text-danger"></span>
+                    </div>
+                </div>
+
+
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Phí Vận Chuyển:</label>
+                    <div class="col-sm-8">
+                        <input value="@string.Format("{0:n0} đ", Model.PhiVanChuyen)" class="form-control" readonly />
+                        <span asp-validation-for="PhiVanChuyen" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Tổng Tiền:</label>
+                    <div class="col-sm-8">
+                        <input value="@string.Format("{0:n0} đ", Model.TongTien)" class="form-control" readonly />
+                        <span asp-validation-for="TongTien" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Ghi Chú:</label>
+                    <div class="col-sm-8">
+                        <input asp-for="GhiChu" class="form-control" />
+                        <span asp-validation-for="GhiChu" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Trạng thái đơn hàng:</label>
+                    <div class="col-sm-8">
+                        <select asp-for="MaTrangThai" class="form-control" asp-items="ViewBag.MaTrangThai"></select>
+                        <span asp-validation-for="MaTrangThai" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" value="Lưu" class="btn btn-primary mx-2" />
+                    <a asp-action="Index" class="btn btn-outline-dark mx-2">Quay Về</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

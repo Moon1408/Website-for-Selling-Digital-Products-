@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Webnc.ViewModels.HangHoaVM>
+
+<div class="row px-xl-5">
+    <div class="col">
+        <div class="owl-carousel related-carousel">
+            @foreach (var item in Model)
+            {
+                <div class="product-item bg-light">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="~/Hinh/HangHoa/@System.IO.Path.GetFileName(item.Hinh)" alt="@item.TenHH">
+                        @if (!User.IsInRole("Quản lý") && !User.IsInRole("Nhân viên"))
+                        {
+                            <div class="product-action">
+                                <a class="ajax-add-to-cart btn btn-outline-dark btn-square" data-id="@item.MaHh"><i class="fa fa-shopping-cart"></i></a>
+                                <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                                <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                            </div>
+                        }
+                    </div>
+                    <div class="text-center py-4">
+                        <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHh"
+                           class="h6 text-decoration-none text-truncate truncate-text">
+                            @item.TenHH
+                        </a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>@string.Format("{0:n0} đ", item.DonGia)</h5>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-secondary mr-1"></small>
+                            <small class="fa fa-star text-secondary mr-1"></small>
+                            <small class="fa fa-star text-secondary mr-1"></small>
+                            <small class="fa fa-star text-secondary mr-1"></small>
+                            <small class="fa fa-star text-secondary mr-1"></small>
+                            <small>(0)</small>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

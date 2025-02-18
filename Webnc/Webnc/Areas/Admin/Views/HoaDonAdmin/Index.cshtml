@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Webnc.Models.HoaDon>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="card" style="margin: 24px">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <h5 class="card-header" style="margin-right: 10%">Danh Sách Hóa Đơn</h5>
+                </th>
+
+            </tr>
+        </thead>
+    </table>
+
+    <div class="card-body">
+        <div class="table-responsive text-nowrap">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Mã Khách Hàng</th>
+                        <th>Ngày Đặt</th>
+                        <th>Họ Tên</th>
+                        <th>Địa Chỉ</th>
+                        <th>Điện Thoại</th>
+                        <th>Cách Thanh Toán</th>
+                        <th>Trạng Thái Thanh Toán</th>
+                        <th>Thành Tiền</th>
+                        <th>Phí Vận Chuyển</th>
+                        <th>Tổng Tiền</th>
+                        <th>Ghi Chú</th>
+                        <th>Mã Trạng Thái</th>
+                        <th>Tình trạng đơn hàng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MaKhNavigation.MaKh)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NgayDat)
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.HoTen)
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DiaChi)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DienThoai)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CachThanhToan)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TrangThaiTt)
+                            </td>
+                            <td>
+                                @string.Format("{0:n0} đ", item.ThanhTien)
+                            </td>
+                            <td>
+                                @string.Format("{0:n0} đ", item.PhiVanChuyen)
+                            </td>
+                            <td>
+                                @string.Format("{0:n0} đ", item.TongTien)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.GhiChu)
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MaTrangThaiNavigation.TenTrangThai)
+                            </td>
+                            <td>
+                                @if (item.MaTrangThai == -1 || item.MaTrangThai == 2)
+                                {
+                                    <a asp-action="Edit" asp-route-id="@item.MaHd" class="btn btn-primary disabled-button">Sửa</a>
+                                }
+                                else
+                                {
+                                    <a asp-action="Edit" asp-route-id="@item.MaHd" class="btn btn-primary">Sửa</a>
+                                }
+                                <a asp-action="Details" asp-route-id="@item.MaHd" class="btn btn-warning">Chi Tiết</a>
+                                @*   <a asp-action="Delete" asp-route-id="@item.MaHd" class="btn btn-danger">Xóa</a> *@
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    /*Làm mờ nút và không cho phép nhấn vào */
+    .disabled-button {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+</style>

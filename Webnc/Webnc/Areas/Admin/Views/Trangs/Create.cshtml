@@ -1,0 +1,41 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Webnc.Models.Trang
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+</head>
+<div class="col-md-6" style="margin:25px; width:96%">
+<div class="card mb-4">
+        <h4 class="card-header" style="text-align:center">Thêm Trang</h4>
+    <div class="card-body">
+        <div class="mt-2 mb-3">
+             <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="card-body">
+                        <div class="mt-2 mb-3">
+                            <h5>Tên trang</h5>
+                            <input asp-for="TenTrang" class="form-control" />
+                        </div>
+                    </div>
+                        </br>
+                        <div style="text-align:right">
+                            <input type="submit" value="Create" class="btn btn-primary" />
+                            <div class="btn btn-outline-secondary white-hover-link" style="margin-left: 20px;">
+                                <a asp-action="Index">Trở về</a>
+                            </div>
+                        </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+@section scripts {
+    <script src="~/js/admin.js"></script>
+}
+

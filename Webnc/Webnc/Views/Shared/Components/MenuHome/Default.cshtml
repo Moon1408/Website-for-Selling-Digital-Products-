@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Webnc.ViewModels.MenuVM>
+<div class="navbar-nav w-100">
+     @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+               @* ĐIỀU HƯỚNG TỚI TRANG HIỂN THỊ SHOP ( HANGHOA - INDEX ) *@          
+                <a asp-controller="HangHoa" asp-action="Index" asp-route-loai="@item.MaLoai" class="nav-item nav-link">@item.TenLoai</a>
+            }
+        }
+    else
+            {
+                <p>No items available</p>
+            }
+        
+</div>
+
+  

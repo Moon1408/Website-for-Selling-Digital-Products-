@@ -1,0 +1,188 @@
+﻿@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<Webnc.ViewModels.HangHoaVM>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Breadcrumb Start -->
+<div class="container-fluid">
+    <div class="row px-xl-5">
+        <div class="col-12">
+            <nav class="breadcrumb bg-light mb-30">
+                <a asp-controller="Home" asp-action="index" class="breadcrumb-item text-dark">Trang chủ</a>
+                <span class="breadcrumb-item active">Sản phẩm</span>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumb End -->
+<!-- Shop Start -->
+<div class="container-fluid">
+    <div class="row px-xl-5">
+        <!-- Shop Sidebar Start -->
+        @*    MENU BÊN TRÁI  *@
+        @await Component.InvokeAsync("MenuLoai")
+
+        <!-- Shop Sidebar End -->
+        <!-- Shop Product Start -->
+        <div class="col-lg-9 col-md-8">
+            <div class="row pb-3">
+                <div class="col-12 pb-1">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <div>
+                            <button class="btn btn-sm btn-light"><i class="fa fa-th-large"></i></button>
+                            <button class="btn btn-sm btn-light ml-2"><i class="fa fa-bars"></i></button>
+                        </div>
+                        <div class="ml-2">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Sorting</button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="#">Latest</a>
+                                    <a class="dropdown-item" href="#">Popularity</a>
+                                    <a class="dropdown-item" href="#">Best Rating</a>
+                                </div>
+                            </div>
+                            <div class="btn-group ml-2">
+                                <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Showing</button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="#">10</a>
+                                    <a class="dropdown-item" href="#">20</a>
+                                    <a class="dropdown-item" href="#">30</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                @* HIỂN THỊ LỖI KHI KHÔNG CÓ SẢN PHẨM NÀO *@
+                @if (ViewData["Message"] != null)
+                {
+                    <div style="display: flex; justify-content: center; text-align: center; width: 100%;">
+                        <div>
+                            <h3>Không tìm thấy kết quả nào.</h3>
+                            <p>Hãy thử sử dụng các từ khóa chung chung hơn</p>
+                        </div>
+                    </div>
+                }
+                @* HIỂN THỊ SẢN PHẨM  *@
+                <div class="container">
+                    <div class="row">
+                        @foreach (var item in Model)
+                        {
+                            <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                                <div class="product-item bg-light mb-4">
+                                    <div class="product-img position-relative overflow-hidden">
+                                        <img class="img-fluid w-100" src="~/Hinh/HangHoa/@System.IO.Path.GetFileName(item.Hinh)" alt="@item.TenHH">
+                                        @if (!User.IsInRole("Quản lý") && !User.IsInRole("Nhân viên"))
+                                        {
+                                            <div class="product-action">
+                                                @* Mấy cái thêm icon  *@
+                                                @*  <a class="ajax-add-to-cart btn btn-outline-dark btn-square" asp-action="AddToCart" asp-controller="Cart" asp-route-id="@item.MaHh" data-id="@item.MaHh"><i class="fa fa-shopping-cart"></i></a> *@
+                                                <a class="ajax-add-to-cart btn btn-outline-dark btn-square" data-id="@item.MaHh"><i class="fa fa-shopping-cart"></i></a>
+                                                <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                                <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                                                <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                                            </div>
+                                        }
+                                    </div>
+                                    @* Bấm vào tên sẽ chuyển qua trang chi tiết sp
+                                Thay vì là thẻ href  *@
+                                    <div class="text-center py-4">
+                                        <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHh"
+                                           class="h6 text-decoration-none text-truncate truncate-text">
+                                            @item.TenHH
+                                        </a>
+                                        <div class="d-flex align-items-center justify-content-center mt-2">
+                                            @* ĐỔI SANG TIỀN VIỆT  *@
+                                            <h5>@string.Format("{0:n0} đ", item.DonGia)</h5>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center mb-1">
+                                            <small class="fa fa-star text-secondary mr-1"></small>
+                                            <small class="fa fa-star text-secondary mr-1"></small>
+                                            <small class="fa fa-star text-secondary mr-1"></small>
+                                            <small class="fa fa-star text-secondary mr-1"></small>
+                                            <small class="fa fa-star text-secondary mr-1"></small>
+                                            <small>(0)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="pagination d-flex justify-content-center mt-5">
+                        @Html.PagedListPager(Model, page => Url.Action("Index", new { page, query = Context.Request.Query["query"], loai = Context.Request.Query["loai"], thuonghieu = Context.Request.Query["thuonghieu"] }))
+                    </div>
+                </div>
+            </div>
+            <!-- Shop Product End -->
+        </div>
+    </div>
+    <!-- Shop End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    @* CHỈNH CHO TÊN HÀNG HÓA NẾU DÀI QUÁ THÌ ...  *@
+    <style>
+        .truncate-text {
+            display: inline-block;
+            max-width: 250px; /*  Điều chỉnh giá trị này theo ý muốn */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            vertical-align: bottom; /* Đảm bảo văn bản được căn chỉnh đúng */
+        }
+    </style>
+    <style>
+        .pagination {
+            display: flex;
+            justify-content: center;
+        }
+
+            .pagination ul {
+                list-style: none;
+                padding: 0;
+            }
+
+                .pagination ul li {
+                    display: inline-block;
+                    margin-right: 5px;
+                }
+
+                    .pagination ul li a,
+                    .pagination ul li span {
+                        color: #000;
+                        text-decoration: none;
+                        padding: 5px 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 3px;
+                    }
+
+                    .pagination ul li:hover a,
+                    .pagination ul li:hover span {
+                        background-color: #f0f0f0; /* Nền trắng */
+                        color: #FFD700; /* Chữ vàng */
+                    }
+
+                    .pagination ul li.active a,
+                    .pagination ul li.active span {
+                        background-color: #FFD700; /* Nền vàng */
+                        color: #fff; /* Chữ trắng */
+                        border-color: #FFD700; /* Viền vàng */
+                    }
+
+                    .pagination ul li.disabled span {
+                        color: #6c757d;
+                        pointer-events: none;
+                        cursor: default;
+                    }
+    </style>
+
+
+
+    @section scripts {
+        <script src="~/js/cart.js"></script>
+    }

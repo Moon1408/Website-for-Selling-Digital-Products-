@@ -1,0 +1,519 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<Webnc.Models.NhanVien>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+
+</head>
+<div class="card" style="margin: 24px">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <h5 class="card-header" style="margin-right: 10%">Danh Sách Nhân Viên</h5>
+                </th>
+                <th style="text-align:right ; padding-right:28px">
+                    <p class="btn btn-info" style="margin-right: 10px;">
+                        <a href="#" data-toggle="modal" data-target="#importExcelModal" style="color: white; display: flex; align-items: center;">
+                            <img src="~/Hinh/Nhap.png" class="menu-icon" style="width: 25px; height: 20px; margin-right: 2px;">
+                            Nhập Excel
+                        </a>
+                    </p>
+
+                    <!-- Modal -->
+                  @*   <div class="modal fade" id="importExcelModal" tabindex="-1" role="dialog" aria-labelledby="importExcelModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="importExcelModalLabel">Nhập Excel</h5>
+                                    @*  Đề hiển thị lỗi  *@
+                                 @*    @if (ViewData.ModelState.ErrorCount > 0)
+                                    {
+                                        <div class="validation-summary-errors text-danger">
+                                            <ul>
+                                                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                                {
+                                                    <li>@error.ErrorMessage</li>
+                                                }
+                                            </ul>
+                                        </div>
+                                    } *@
+@* 
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form asp-action="ImportExcel" asp-controller="NhanViens" asp-area="Admin" method="post" enctype="multipart/form-data">
+                                        <div class="form-group">
+                                            <label for="file">Chọn file Excel</label>
+                                            <input type="file" name="file" class="form-control" required />
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Tải lên</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div> *@
+                    <div class="modal fade" id="importExcelModal" tabindex="-1" role="dialog" aria-labelledby="importExcelModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="importExcelModalLabel">Nhập Excel</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: none; border: none; font-size: 1.5rem;">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Display error messages -->
+                                    <div id="error-messages" class="validation-summary-errors text-danger" style="display:none;">
+                                        <ul></ul>
+                                    </div>
+                                    <!-- Gợi ý tệp mẫu -->
+                                    <div style="margin-bottom: 5px;">
+                                        <a href="~/Excel/NhanVien.xlsx" download="NhanVien.xlsx" style="text-decoration: none;">
+                                            Tải tệp mẫu cơ bản
+                                            <span style="font-style: italic; color: #666;"> để nhập những thông tin cơ bản.</span>
+                                        </a>
+                                    </div>
+                                    <!-- Form for file upload -->
+                                    <form id="uploadForm" enctype="multipart/form-data">
+                                        <div class="form-group" style="margin-bottom: 10px;">
+                                            <label for="file">Chọn file Excel (.xlsx)</label>
+                                            <input type="file" name="file" class="form-control" id="file" />
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Tải lên</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                   @*  ------  *@
+                    <p class="btn btn-success" style="margin-right: 10px;">
+                        <a asp-action="ExportExcel" asp-controller="NhanViens" asp-area="Admin" style="color: white; display: flex; align-items: center;">
+                            <img src="~/Hinh/Xuat.png" class="menu-icon" style="width: 25px; height: 20px; margin-right: 2px;">
+                            Xuất Excel
+                        </a>
+                    </p>
+                    <p class="btn btn-outline-primary white-hover-link">
+                        <a asp-action="Create">Thêm</a>
+                    </p>
+                </th>
+            </tr>
+        </thead>
+    </table>
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div id="error-message" class="alert alert-danger" style="display: inline-block; max-width: 500px; margin-left: 20px;">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+    <div class="card-body">
+        <div class="table-responsive text-nowrap">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Tên đăng nhập</th>
+                        <th>Họ tên nhân viên</th>
+                        <th>Email</th>
+                        <th>Hiệu lực</th>
+                        <th>Phòng Ban</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>  
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MaNv)
+                            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenDn)
+                </td>
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.HoTen)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.HieuLuc)
+                            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaPbNavigation.MaPb) -
+                    @Html.DisplayFor(modelItem => item.MaPbNavigation.TenPb)
+                </td>
+
+                <td>
+                                <div class="d-flex justify-content-center my-3">
+                                    <a class="btn btn-primary mr-3" asp-action="Edit" asp-route-id="@item.MaNv">Sửa</a>
+                                    <span style=" margin-left: 1rem; margin-right: 1rem;"></span>
+                                    <button class="details-btn btn btn-warning mr-3" data-id="@item.MaNv">Chi tiết</button>
+                                    <span style=" margin-left: 1rem; margin-right: 1rem;"></span> 
+                                    <button type="button" class="btn btn-danger delete-button" data-id="@item.MaNv" data-url="/Admin/NhanViens/Delete" style="color: white;">Xóa</button>
+                                </div>
+                </td>
+            </tr>
+        }
+        </table>
+        </div>
+    </div>
+
+@section Scripts {
+    <script src="~/js/admin1.js"> </script>
+    <script src="~/js/ad_action.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        /* CSS để căn lề trái cho nội dung */
+        .custom-swal-content {
+            text-align: left;
+            padding-left: 20px; /* Tạo khoảng cách với mép bên trái */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* CSS để thẳng hàng các dòng dữ liệu */
+        .data-row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 5px; /* Tạo khoảng cách giữa các dòng */
+        }
+
+        /* CSS để căn lề cho các dòng dữ liệu */
+        .data-label {
+            min-width: 150px; /* Đảm bảo rằng các dòng dữ liệu sẽ cách nhau một khoảng cố định */
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var buttons = document.querySelectorAll('.details-btn');
+            buttons.forEach(function (button) {
+                button.addEventListener('click', function () {
+                    var id = this.getAttribute('data-id');
+                    fetch(`@Url.Action("Details", "NhanViens")?id=${id}`)
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Không thể tải chi tiết nhân viên');
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            if (data.error) {
+                                // Hiển thị thông báo lỗi nếu có lỗi từ phía máy chủ
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'Lỗi',
+                                    text: data.error
+                                });
+                            } else {
+                                // Hiển thị chi tiết nhân viên
+                                Swal.fire({
+                                    title: 'Chi Tiết Nhân Viên',
+                                    html: `
+                                                        <div class="custom-swal-content">
+                                                            <div class="data-row">
+                                                                <span class="data-label"><strong>TenDn:</strong></span> ${data.tenDn}<br>
+                                                            </div>
+                                                            <div class="data-row">
+                                                                <span class="data-label"><strong>MatKhau:</strong></span> ${data.matKhau}<br>
+                                                            </div>
+                                                            <div class="data-row">
+                                                                <span class="data-label"><strong>HoTen:</strong></span> ${data.hoTen}<br>
+                                                            </div>
+                                                            <div class="data-row">
+                                                                <span class="data-label"><strong>Email:</strong></span> ${data.email}<br>
+                                                            </div>
+                                                            <div class="data-row">
+                                                                <span class="data-label"><strong>Phong Ban:</strong></span> ${data.maPb} - ${data.tenPb}<br>
+                                                            </div>
+                                                        </div>
+                                                    `
+                                });
+                            }
+                        })
+                        .catch(error => {
+                            // Hiển thị thông báo lỗi khi xảy ra lỗi khác
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Lỗi',
+                                text: error.message
+                            });
+                            console.error('Error fetching details:', error);
+                        });
+                });
+            });
+        });
+
+    </script>
+}
+
+
+
+@* <script>
+    $(document).ready(function () {
+        $('#uploadForm').on('submit', function (e) {
+            e.preventDefault();
+
+            var formData = new FormData(this);
+
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("ImportExcel","NhanViens")',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    if (response.success) {
+                        // Handle success (e.g., close the modal, show a success message, etc.)
+                        $('#importExcelModal').modal('hide');
+                        // Optionally, refresh the page or part of the page to show the uploaded content
+                    } else {
+                        // Show error messages
+                        var errorMessages = $('#error-messages');
+                        errorMessages.find('ul').empty();
+                        $.each(response.errors, function (index, error) {
+                            errorMessages.find('ul').append('<li>' + error + '</li>');
+                        });
+                        errorMessages.show();
+                        // Keep the modal open
+                        $('#importExcelModal').modal('show');
+                    }
+                      // Ẩn thông báo lỗi sau 800ms
+                    setTimeout(function () {
+                        errorMessages.hide();
+                    }, 800);
+                },
+                error: function () {
+                    // Handle general error
+                    var errorMessages = $('#error-messages');
+                    errorMessages.find('ul').empty().append('<li>Đã xảy ra lỗi. Vui lòng thử lại.</li>');
+                    errorMessages.show();
+                    // Keep the modal open
+                    $('#importExcelModal').modal('show');
+                }
+                    // Ẩn thông báo lỗi sau 800ms
+                    setTimeout(function () {
+                        errorMessages.hide();
+                    }, 800);
+            });
+        });
+
+        // Open the modal if there are errors (if needed, based on other logic)
+        $('#importExcelModal').modal('show');
+    });
+</script> *@
+@* <script>
+    // // Mở modal khi nhấn vào nút "Nhập Excel"
+    // $('a[data-target="#importExcelModal"]').on('click', function (e) {
+    //     e.preventDefault();
+    //     $('#importExcelModal').modal('show');
+    // });
+    //     });
+    $(document).ready(function () {
+    var modalClosingAllowed = false; // Biến cờ để kiểm soát việc đóng modal
+
+    $('#uploadForm').on('submit', function (e) {
+        e.preventDefault();
+
+        var formData = new FormData(this);
+
+        $.ajax({
+            type: 'POST',
+                url: '@Url.Action("ImportExcel", "NhanViens")',
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                if (response.success) {
+                    // Xử lý thành công (ví dụ: đóng modal, hiển thị thông báo thành công, làm mới trang...)
+                    $('#importExcelModal').modal('hide');
+                    // Optional: Làm điều gì đó sau khi upload thành công (ví dụ: làm mới trang)
+                } else {
+                    // Hiển thị thông báo lỗi
+                    var errorMessages = $('#error-messages');
+                    errorMessages.find('ul').empty();
+                    $.each(response.errors, function (index, error) {
+                        errorMessages.find('ul').append( error );
+                    });
+                    errorMessages.show();
+
+                    // Ẩn thông báo lỗi sau 800ms
+                    setTimeout(function () {
+                        errorMessages.hide();
+                    }, 800);
+                }
+            },
+            error: function () {
+                // Xử lý lỗi chung
+                var errorMessages = $('#error-messages');
+                errorMessages.find('ul').empty().append('<li>Đã xảy ra lỗi. Vui lòng thử lại.</li>');
+                errorMessages.show();
+
+                // Ẩn thông báo lỗi sau 800ms
+                setTimeout(function () {
+                    errorMessages.hide();
+                }, 800);
+            }
+        });
+
+        // Ngăn modal đóng khi không được phép
+        $('#importExcelModal').modal({ backdrop: 'static', keyboard: false });
+    });
+
+    // Mở modal khi có lỗi (nếu cần thiết, dựa trên logic khác)
+    $('#importExcelModal').modal('show');
+});
+
+</script> *@
+@* <script>
+    $(document).ready(function () {
+        // Mở modal khi nhấn vào nút "Nhập Excel"
+        $('#openExcelModalBtn').on('click', function (e) {
+            e.preventDefault();
+            $('#importExcelModal').modal('show');
+        });
+
+        // Bắt sự kiện submit của form
+        $('#uploadForm').on('submit', function (e) {
+            e.preventDefault();
+
+            var formData = new FormData(this);
+
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("ImportExcel", "NhanViens")', // Đổi phần Url.Action này thành đúng đường dẫn và controller của bạn
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    if (response.success) {
+                        // Xử lý thành công (ví dụ: đóng modal, hiển thị thông báo thành công, làm mới trang...)
+                        $('#importExcelModal').modal('hide');
+                        // Optional: Làm điều gì đó sau khi upload thành công (ví dụ: làm mới trang)
+                    } else {
+                        // Hiển thị thông báo lỗi
+                        var errorMessages = $('#error-messages');
+                        errorMessages.find('ul').empty();
+                        if (response.errors && response.errors.length > 0) {
+                            $.each(response.errors, function (index, error) {
+                                errorMessages.find('ul').append('<li>' + error + '</li>');
+                            });
+                            errorMessages.show();
+                        } else {
+                            errorMessages.find('ul').append('<li>Đã xảy ra lỗi. Vui lòng thử lại.</li>');
+                            errorMessages.show();
+                        }
+
+                        // Ẩn thông báo lỗi sau 800ms
+                        setTimeout(function () {
+                            errorMessages.hide();
+                        },  800);
+                    }
+                },
+                error: function () {
+                    // Xử lý lỗi chung
+                    var errorMessages = $('#error-messages');
+                    errorMessages.find('ul').empty().append('<li>Đã xảy ra lỗi. Vui lòng thử lại.</li>');
+                    errorMessages.show();
+
+                    // Ẩn thông báo lỗi sau 800ms
+                    setTimeout(function () {
+                        errorMessages.hide();
+                    }, 800);
+                }
+            });
+
+            // Ngăn modal đóng khi không được phép
+            $('#importExcelModal').modal({ backdrop: 'static', keyboard: false });
+        });
+    });
+</script>
+ *@
+<script>
+    $(document).ready(function () {
+        // Mở modal khi nhấn vào nút "Nhập Excel"
+        $('#openExcelModalBtn').on('click', function (e) {
+            e.preventDefault();
+            $('#importExcelModal').modal('show');
+        });
+
+        // Bắt sự kiện submit của form
+        $('#uploadForm').on('submit', function (e) {
+            e.preventDefault();
+
+            var formData = new FormData(this);
+
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("ImportExcel", "NhanViens")',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    if (response.success) {
+                        // Hiển thị thông báo thành công bằng SweetAlert
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Import Excel thành công',
+                            toast: true,
+                            position: 'top-end',
+                            showConfirmButton: false,
+                            timer: 1500,
+                            timerProgressBar: true,
+                            didOpen: (toast) => {
+                                toast.addEventListener('mouseenter', Swal.stopTimer);
+                                toast.addEventListener('mouseleave', Swal.resumeTimer);
+                            }
+                        }).then((result) => {
+                            // Sau khi đóng thông báo, chuyển hướng về trang Index của NhanViens
+                            window.location.href = '@Url.Action("Index", "NhanViens")';
+                        });
+                    } else {
+                        // Hiển thị thông báo lỗi
+                        var errorMessages = $('#error-messages');
+                        errorMessages.find('ul').empty();
+                        if (response.errors && response.errors.length > 0) {
+                            $.each(response.errors, function (index, error) {
+                                errorMessages.find('ul').append('<li>' + error + '</li>');
+                            });
+                            errorMessages.show();
+                        } else {
+                            errorMessages.find('ul').append('<li>Đã xảy ra lỗi. Vui lòng thử lại.</li>');
+                            errorMessages.show();
+                        }
+
+                        // Ẩn thông báo lỗi sau 800ms
+                        setTimeout(function () {
+                            errorMessages.hide();
+                        }, 800);
+                    }
+                },
+                error: function () {
+                    // Xử lý lỗi chung
+                    var errorMessages = $('#error-messages');
+                    errorMessages.find('ul').empty().append('<li>Đã xảy ra lỗi. Vui lòng thử lại.</li>');
+                    errorMessages.show();
+
+                    // Ẩn thông báo lỗi sau 800ms
+                    setTimeout(function () {
+                        errorMessages.hide();
+                    }, 800);
+                }
+            });
+
+            // Ngăn modal đóng khi không được phép
+            $('#importExcelModal').modal({ backdrop: 'static', keyboard: false });
+        });
+    });
+</script>

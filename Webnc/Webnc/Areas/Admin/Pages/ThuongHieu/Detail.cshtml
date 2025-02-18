@@ -1,0 +1,35 @@
+﻿@page
+@model Webnc.Pages.ThuongHieu.DetailModel
+
+@{
+    ViewData["Title"] = "Chi Tiết Thương Hiệu";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+<head>
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="col-md-6" style="margin:25px; width:96%">
+            <div class="card mb-4">
+                <h4 class="card-header" style="text-align:center">
+                    Chi Tiết Thương Hiệu
+                </h4>
+                <div class="card-body">
+                    <div class="mt-2 mb-3">
+                        <dl class="row">
+                            <dt class="col-sm-10">Tên Thương Hiệu</dt>
+                            <dd class="col-sm-10">@Model.ThuongHieu.TenTh</dd>
+                        </dl>
+                        <div style="text-align:center">
+                            <button onclick="window.location.href='/Admin/ThuongHieuAdmin'" class="btn btn-primary">Quay lại</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

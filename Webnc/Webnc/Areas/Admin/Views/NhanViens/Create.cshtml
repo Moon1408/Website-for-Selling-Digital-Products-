@@ -1,0 +1,68 @@
+﻿@model Webnc.Models.NhanVien
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+</head>
+<div class="col-md-6" style="margin:25px; width:96%">
+<div class="card mb-4">
+        <h4 class="card-header" style="text-align:center">Thêm nhân viên</h4>
+    <div class="card-body">
+        <div class="mt-2 mb-3">
+             <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="MaNv" />
+                    <div class="card-body">
+                        <div class="mt-2 mb-3">
+                        <h5>Tên đăng nhập</h5>
+                        <input asp-for="TenDn" class="form-control" />
+                    </div>
+
+                        <div class="mt-2 mb-3">
+                        <h5>Mật khẩu</h5>
+                        <input asp-for="MatKhau" class="form-control" />
+                    </div>
+                        <div class="mt-2 mb-3">
+                        <h5>Họ tên</h5>
+                        <input asp-for="HoTen" class="form-control" />
+                    </div>
+                        <div class="mt-2 mb-3">
+                        <h5>Email</h5>
+                        <input asp-for="Email" class="form-control" />
+                    </div>
+                        <div class="mt-2 mb-3">
+                                <h5>Hiệu Lực</h5>
+                                <input class="form-check-input" asp-for="HieuLuc" />
+                        </div>
+                        <div class="mt-2 mb-3">
+                        <h5>Phòng ban </h5>
+                            <select asp-for="MaPb" class="form-select form-select-lg mb-3" asp-items="@(new SelectList(ViewBag.MaPb, "Value", "Text"))">
+                            <option value="">-- Chọn phòng ban --</option>
+                        </select>
+                            
+                           
+                        
+                    </div>
+                    <br>
+                        <div style="text-align:right">
+                            <input type="submit" value="Create" class="btn btn-primary"/>
+                            <div class="btn btn-outline-secondary white-hover-link" style="margin-left: 20px;">
+                                <a asp-action="Index">Trở về</a>
+                            </div>
+                        </div>
+
+                </form>
+        </div>
+        </div>
+
+        </div>
+    </div>
+
+@section scripts {
+    <script src="~/js/admin.js"></script>
+}

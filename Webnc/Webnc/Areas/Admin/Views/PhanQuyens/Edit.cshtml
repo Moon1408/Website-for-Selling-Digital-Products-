@@ -1,0 +1,56 @@
+﻿@model Webnc.Models.PhanQuyen
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="col-md-6" style="margin:25px; width:96%">
+    <div class="card mb-4">
+        <h4 class="card-header" style="text-align:center">Sửa phân quyền</h4>
+        <div class="card-body">
+            <div class="mt-2 mb-3">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="MaPq" />
+                    <div class="card-body">
+                        <div class="mt-2 mb-3">
+                            <h5>Nhân Viên</h5>
+                            <select asp-for="MaNv" class="form-select form-select-lg mb-3" asp-items="@(new SelectList(ViewBag.MaNv, "Value", "Text"))"></select>
+                        </div>
+                        <div class="mt-2 mb-3">
+                            <h5>Trang</h5>
+                            <select asp-for="MaTrang" class="form-select form-select-lg mb-3" asp-items="@(new SelectList(ViewBag.MaTrang, "Value", "Text"))"></select>
+                        </div>
+                        <div class="mt-2 mb-3">
+                            <h5>Thêm</h5>
+                            <input class="form-check-input" asp-for="Them" /> @Html.DisplayNameFor(model => model.Them)
+                        </div>
+                        <div class="mt-2 mb-3">
+                            <h5>Xem</h5>
+                            <input class="form-check-input" asp-for="Xem" /> @Html.DisplayNameFor(model => model.Xem)
+                        </div>
+                        <div class="mt-2 mb-3">
+                            <h5>Sửa</h5>
+                            <input class="form-check-input" asp-for="Sua" /> @Html.DisplayNameFor(model => model.Sua)
+                        </div>
+                        <div class="mt-2 mb-3">
+                            <h5>Xóa</h5>
+                            <input class="form-check-input" asp-for="Xoa" /> @Html.DisplayNameFor(model => model.Xoa)
+                        </div>
+                        </br>
+                        <div style="text-align:right">
+                            <input type="submit" value="Save" class="btn btn-primary" />
+                            <div class="btn btn-outline-secondary white-hover-link" style="margin-left: 20px;">
+                                <a asp-action="Index">Trở về</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+@section scripts {
+    <script src="~/js/admin.js"></script>
+}

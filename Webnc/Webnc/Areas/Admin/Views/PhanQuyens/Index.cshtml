@@ -1,0 +1,92 @@
+﻿@model IEnumerable<Webnc.Models.PhanQuyen>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+<head>
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+</head>
+<div class="card" style="margin: 24px">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <h5 class="card-header" style="margin-right: 10%">Danh Sách Phân Quyền</h5>
+                </th>
+                <th style="text-align:right; padding-right:28px">
+                    <p class="btn btn-outline-primary white-hover-link">
+                        <a asp-action="Create">Thêm</a>
+                    </p>
+                </th>
+            </tr>
+        </thead>
+    </table>
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div id="error-message" class="alert alert-danger" style="display: inline-block; max-width: 500px; margin-left: 20px;">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+    <div class="card-body">
+        <div class="table-responsive text-nowrap">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Nhân Viên</th>
+                        <th>Trang</th>
+                        <th>Thêm</th>
+                        <th>Xem</th>
+                        <th>Sửa</th>
+                        <th>Xóa</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.MaPq)</td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MaNvNavigation.MaNv) -
+                                @Html.DisplayFor(modelItem => item.MaNvNavigation.HoTen)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MaTrangNavigation.MaTrang) -
+                                @Html.DisplayFor(modelItem => item.MaTrangNavigation.TenTrang)
+                            </td>
+                            <td><input type="checkbox" @(item.Them ? "checked" : "") disabled style="transform: scale(1.5);"></td>
+                            <td><input type="checkbox" @(item.Xem ? "checked" : "") disabled style="transform: scale(1.5);"></td>
+                            <td><input type="checkbox" @(item.Sua ? "checked" : "") disabled style="transform: scale(1.5);"></td>
+                            <td><input type="checkbox" @(item.Xoa ? "checked" : "") disabled style="transform: scale(1.5);"></td>
+                            <td>
+                                <div class="d-flex justify-content-center my-3">
+                                    <a class="btn btn-primary mr-3" asp-action="Edit" asp-route-id="@item.MaPq">Sửa</a>
+                                    <span style=" margin-left: 1rem; margin-right: 1rem;"></span>
+                                   
+                                    <span style=" margin-left: 1rem; margin-right: 1rem;"></span>
+                                    <button type="button" class="btn btn-danger delete-button" data-id="@item.MaPq" data-url="/Admin/PhanQuyens/Delete" style="color: white;">Xóa</button>
+
+                                 
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/admin1.js"></script>
+    <script src="~/js/ad_action.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+}

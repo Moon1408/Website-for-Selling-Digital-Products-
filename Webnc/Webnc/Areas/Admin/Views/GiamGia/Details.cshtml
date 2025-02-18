@@ -1,0 +1,69 @@
+﻿@model Webnc.Models.GiamGium
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="col-md-8 mx-auto">
+    <div class="card my-4">
+        <h5 class="card-header text-center">Chi tiết Giảm Giá</h5>
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="MaGg" />
+
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @TempData["ErrorMessage"]
+                    </div>
+                }
+                <div class="card-body">
+                    <dl class="row mb-3">
+                        <dt class="col-sm-4">Tên giảm giá:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.TenGg)</dd>
+                    </dl>
+
+                    <dl class="row mb-3">
+                        <dt class="col-sm-4">Ngày bắt đầu:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.NgayBd)</dd>
+                    </dl>
+
+                    <dl class="row mb-3">
+                        <dt class="col-sm-4">Ngày kết thúc:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.NgayKt)</dd>
+                    </dl>
+
+                    <dl class="row mb-3">
+                        <dt class="col-sm-4">Đơn giá:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.DonGia)</dd>
+                    </dl>
+
+                    <dl class="row mb-3">
+                        <dt class="col-sm-4">Giá áp dụng:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.GiaAd)</dd>
+                    </dl>
+
+                    <dl class="row mb-3">
+                        <dt class="col-sm-4">Code:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Code)</dd>
+                    </dl>
+
+                    <dl class="row mb-3">
+                        <dt class="col-sm-4">Số lượng:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Sl)</dd>
+                    </dl>
+                </div>
+                <div class="text-center">
+                    <a asp-action="Index" class="btn btn-outline-dark mx-2">Quay Về</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@section scripts {
+    <script src="~/js/admin.js"></script>
+}
+
+

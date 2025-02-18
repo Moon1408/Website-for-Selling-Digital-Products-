@@ -1,0 +1,39 @@
+﻿@model Webnc.Models.ThuongHieu
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+</head>
+<div class="col-md-6" style="margin:25px; width:96%">
+    <div class="card mb-4">
+        <h4 class="card-header" style="text-align:center">
+            Sửa Thương Hiệu
+        </h4>
+        <div class="card-body">
+            <div class="mt-2 mb-3">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="MaTh" />
+                    <div class="card-body">
+                        <div class="mt-2 mb-3">
+                            <h5>Tên Thương Hiệu</h5>
+                            <input asp-for="TenTh" class="form-control" />
+                        </div>
+                    </div>
+                    <div style="text-align:right">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                        <div class="btn btn-outline-secondary white-hover-link" style="margin-left: 20px;">
+                            <a asp-action="Index">Trở về</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts {
+    <script src="~/js/admin.js"></script>
+}

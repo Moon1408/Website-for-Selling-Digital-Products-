@@ -1,0 +1,1509 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Webnc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Webnc.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\2.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\2.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\3.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\3.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\3.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\3.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\4.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\4.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\5.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\5.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\6.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\6.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\b_a-tr_c---ph_p-y-600.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\b_a-tr_c---ph_p-y-600.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\bia_conan_tau-ngam-sat-den.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\bia_conan_tau-ngam-sat-den.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\bread.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\bread.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\cake.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\cake.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\profile-user.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\profile-user.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\strawberry-cake.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\strawberry-cake.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\user.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\user.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Images\\yes.png",
+      "PackagePath": "staticwebassets\\Content\\Images\\yes.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\PagedList.css",
+      "PackagePath": "staticwebassets\\Content\\PagedList.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\Site.css",
+      "PackagePath": "staticwebassets\\Content\\Site.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\avatars\\user.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\avatars\\user.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Content\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Excel\\HangHoa.xlsx",
+      "PackagePath": "staticwebassets\\Excel\\HangHoa.xlsx"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Excel\\NhanVien.xlsx",
+      "PackagePath": "staticwebassets\\Excel\\NhanVien.xlsx"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\BP.png",
+      "PackagePath": "staticwebassets\\Hinh\\BP.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\BP1.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\BP1.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\DH.png",
+      "PackagePath": "staticwebassets\\Hinh\\DH.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\GG.png",
+      "PackagePath": "staticwebassets\\Hinh\\GG.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\BP1.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\BP1.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\BP2.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\BP2.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\CMT1.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\CMT1.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\CMT2.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\CMT2.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\L1.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\L1.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\L2.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\L2.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\L3.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\L3.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\L4.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\L4.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\L5.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\L5.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\L6.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\L6.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\L7.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\L7.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\Loa1.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\Loa1.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\Loa2.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\Loa2.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\Loa3.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\Loa3.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\Loa4.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\Loa4.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\HangHoa\\Loa6.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\Loa6.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\KH.png",
+      "PackagePath": "staticwebassets\\Hinh\\KH.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\Laptop.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\Laptop.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\Laptop1.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\Laptop1.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\Loa.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\Loa.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\Nhap.png",
+      "PackagePath": "staticwebassets\\Hinh\\Nhap.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\QV.png",
+      "PackagePath": "staticwebassets\\Hinh\\QV.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\SP.png",
+      "PackagePath": "staticwebassets\\Hinh\\SP.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\TK.png",
+      "PackagePath": "staticwebassets\\Hinh\\TK.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Hinh\\Xuat.png",
+      "PackagePath": "staticwebassets\\Hinh\\Xuat.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Properties\\launchSettings.json",
+      "PackagePath": "staticwebassets\\Properties\\launchSettings.json"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Properties\\serviceDependencies.json",
+      "PackagePath": "staticwebassets\\Properties\\serviceDependencies.json"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\Properties\\serviceDependencies.local.json",
+      "PackagePath": "staticwebassets\\Properties\\serviceDependencies.local.json"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\carousel-3.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-3.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-1.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-2.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-3.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-4.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\offer-1.jpg",
+      "PackagePath": "staticwebassets\\img\\offer-1.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\offer-2.jpg",
+      "PackagePath": "staticwebassets\\img\\offer-2.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\payments.png",
+      "PackagePath": "staticwebassets\\img\\payments.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product-1.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\product-2.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\product-3.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\product-4.jpg",
+      "PackagePath": "staticwebassets\\img\\product-4.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\product-5.jpg",
+      "PackagePath": "staticwebassets\\img\\product-5.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\product-6.jpg",
+      "PackagePath": "staticwebassets\\img\\product-6.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\product-7.jpg",
+      "PackagePath": "staticwebassets\\img\\product-7.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\product-8.jpg",
+      "PackagePath": "staticwebassets\\img\\product-8.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\product-9.jpg",
+      "PackagePath": "staticwebassets\\img\\product-9.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\img\\user.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\vendor-1.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-1.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\vendor-2.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-2.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\vendor-3.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-3.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\vendor-4.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-4.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\vendor-5.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-5.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\vendor-6.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-6.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\vendor-7.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-7.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\img\\vendor-8.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-8.jpg"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\ad_action.js",
+      "PackagePath": "staticwebassets\\js\\ad_action.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\admin.js",
+      "PackagePath": "staticwebassets\\js\\admin.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\admin1.js",
+      "PackagePath": "staticwebassets\\js\\admin1.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\cart.js",
+      "PackagePath": "staticwebassets\\js\\cart.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\mail\\contact.js",
+      "PackagePath": "staticwebassets\\mail\\contact.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\mail\\contact.php"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\mail\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\mail\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\1. HUFLIT\\Nam4_HK2\\Web\\1. PQ\\Webnc\\Webnc\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Webnc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Webnc.props",
+      "PackagePath": "build\\Webnc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Webnc.props",
+      "PackagePath": "buildMultiTargeting\\Webnc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Webnc.props",
+      "PackagePath": "buildTransitive\\Webnc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

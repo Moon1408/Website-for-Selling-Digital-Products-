@@ -1,0 +1,123 @@
+﻿@model IEnumerable<Webnc.Models.Trang>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+</head>
+<div class="card" style="margin: 24px">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <h5 class="card-header" style="margin-right: 10%">Danh Sách Trang</h5>
+                </th>
+                <th style="text-align:right; padding-right:28px">
+                    <p class="btn btn-outline-primary white-hover-link">
+                        <a asp-action="Create">Thêm</a>
+                    </p>
+                </th>
+            </tr>
+        </thead>
+    </table>
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div id="error-message" class="alert alert-danger" style="display: inline-block; max-width: 500px; margin-left: 20px;">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+    <div class="card-body">
+        <div class="table-responsive text-nowrap">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Tên trang </th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MaTrang)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TenTrang)
+                            </td>
+                            <td>
+                                <div class="d-flex justify-content-center my-3">
+                                    <a class="btn btn-primary mr-3" asp-action="Edit" asp-route-id="@item.MaTrang" style="color: white;">Sửa</a>
+                                    <span style="margin-left: 1rem; margin-right: 1rem;"></span>
+                                    <button class="details-btn btn btn-warning mr-3" data-id="@item.MaTrang">Chi tiết</button>
+                                    <span style="margin-left: 1rem; margin-right: 1rem;"></span>
+                                    <button type="button" class="btn btn-danger delete-button" data-id="@item.MaTrang" data-url="/Admin/Trangs/Delete" style="color: white;">Xóa</button>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/admin1.js"> </script>
+    <script src="~/js/ad_action.js"> </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var buttons = document.querySelectorAll('.details-btn');
+                buttons.forEach(function (button) {
+                    button.addEventListener('click', function () {
+                        var id = this.getAttribute('data-id');
+                        fetch(`@Url.Action("Details", "Trangs")?id=${id}`)
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error('Không thể tải chi tiết trang');
+                                }
+                                return response.json();
+                            })
+                            .then(data => {
+                                if (data.error) {
+                                    // Hiển thị thông báo lỗi nếu có lỗi từ phía máy chủ
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: 'Lỗi',
+                                        text: data.error
+                                    });
+                                } else {
+                                    // Hiển thị chi tiết nhân viên
+                                    Swal.fire({
+                                        title: 'Chi Tiết Trang',
+                                        html: `
+                                                                <div class="custom-swal-content">
+                                                                    <div class="data-row">
+                                                                        <span class="data-label"><strong>Trang:</strong></span> ${data.trang}<br>
+                                                                    </div>
+                                                                </div>
+                                                            `
+                                    });
+                                }
+                            })
+                            .catch(error => {
+                                // Hiển thị thông báo lỗi khi xảy ra lỗi khác
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'Lỗi',
+                                    text: error.message
+                                });
+                                console.error('Error fetching details:', error);
+                            });
+                    });
+                });
+            });
+    </script>
+  
+}
