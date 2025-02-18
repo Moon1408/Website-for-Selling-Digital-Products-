@@ -6,7 +6,20 @@
 nền tảng trực tuyến để kinh doanh và bán các loại laptop. Mục tiêu của nó là tạo ra 
 một trải nghiệm  mua sắm trực tuyến tiện lợi, linh hoạt và hấp dẫn cho khách hàng. 
 
-**2. Mục tiêu:**
+**2. Công cụ:** Asp.net Core 8, StarUML
+
+**3. Các bước thực hiện:**
+
+B1: Thiết kế cơ sở dư liệu 
+
+B2: Use case tổng quát 
+
+B3: Class Diagram 
+
+B4: Xây dựng trang web 
+
+
+**4. Kết quả**
 
 − Với website này, người dùng được cung cấp những chức năng:
   
@@ -74,48 +87,6 @@ một trải nghiệm  mua sắm trực tuyến tiện lợi, linh hoạt và h�
     
   • Thống kê và báo cáo  
   
-    ✓ Báo cáo doanh số: Hiển thị thông tin về doanh thu, số lượng sản phẩm đã bán trong một khoảng thời gian cụ thể.  
-
-3. Công cụ: Odoo, Draw.io, StarUML
-
-4. Các bước thực hiện:
-
-B1: Tìm hiểu và thu thập thông tin về Vinamilk
-
-B2: Thiết kế sơ đồ các Bộ phận/ Phòng ban
-
-B3: Xây dựng các quy trình kinh doanh (Business Process)
-
-B4: Thiết kế Flow Chart của từng quy trình
-
-B5: Xây dựng Onganization data
-
-B6: Xây dựng Master Data
-
-B7: Triển khai ERP cho doanh nghiệp
-
-Thêm Onganization data vào Odoo
-
-Thêm Master Data vào Odoo
-
-B8: Implement ERP
-
-Áp dụng Odoo vào quy trình mua hàng của Vinamilk
-
-Áp dụng Odoo vào quy trình sản xuất của Vinamilk
-
-Áp dụng Odoo vào quy trình bán hàng của Vinamilk
-
-Áp dụng Odoo vào quy trình tuyển dụng của Vinamilk
-
-5. Kết quả
-
-Tối ưu hóa quy trình kinh doanh: Các bộ phận cùng dùng chung 1 hệ thống và liên kết với nhau, đồng bộ hóa các quy trình khác nhau trong doanh nghiệp.
-
-Tăng hiệu quả hoạt động và năng suất: Giảm thiểu sự can thiệp thủ công và sai sót.
-
-Tiết Kiệm Chi Phí
-
-Chi phí triển khai hợp lý: So với nhiều giải pháp ERP khác, Odoo cung cấp chi phí triển khai và bảo trì hợp lý, đặc biệt với phiên bản cộng đồng (Community Edition) miễn phí.
-Bảo mật và chất lượng dữ liệu: Các bộ phận đều được gán quyền tương ứng tùy thuộc vào vai trò và trách nhiệm của họ trong tổ chức.
+    ✓ Báo cáo doanh số: Hiển thị thông tin về doanh thu, số lượng sản phẩm đã bán trong một khoảng thời gian cụ thể. 
+    
 Liên hệ: email: nhitran14008@gmail.com
