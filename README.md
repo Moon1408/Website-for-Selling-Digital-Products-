@@ -10,29 +10,29 @@ một trải nghiệm  mua sắm trực tuyến tiện lợi, linh hoạt và h�
 
 − Với website này, người dùng được cung cấp những chức năng:
   
-  • Trang home: Ở trang home người dùng có thể xem, tìm kiếm các sản phẩm laptop 
+• Trang home: Ở trang home người dùng có thể xem, tìm kiếm các sản phẩm laptop 
   mới nhất. Nhiều mẫu mã đa dạng từ laptop dành cho công việc đến gaming đồ  
   họa, đáp ứng đầy đủ mọi nhu cầu của bạn.
   
-  • Quản lý người dùng
+• Quản lý người dùng
   
-    ✓ Đăng ký và đăng nhập tài khoản: Người dùng có thể dễ dàng đăng ký tài 
-    khoản để truy cập đầy đủ các chức năng của trang web.
+      ✓ Đăng ký và đăng nhập tài khoản: Người dùng có thể dễ dàng đăng ký tài 
+      khoản để truy cập đầy đủ các chức năng của trang web.
 
-  • Quản lý danh mục hàng hóa
+• Quản lý danh mục hàng hóa
   
-    ✓ Xem thông tin chi tiết sản phẩm: Mô tả chi tiết về từng loại laptop, hình ảnh 
-    chất lượng cao, và giá cả được hiển thị rõ ràng, giúp người dùng dễ dàng đưa 
-    ra quyết định mua hàng.
+      ✓ Xem thông tin chi tiết sản phẩm: Mô tả chi tiết về từng loại laptop, hình ảnh 
+      chất lượng cao, và giá cả được hiển thị rõ ràng, giúp người dùng dễ dàng đưa 
+      ra quyết định mua hàng.
   
-  • Quản lý giỏ hàng
+• Quản lý giỏ hàng
   
-    ✓ Cho phép bạn dễ dàng thêm, xóa hoặc chỉnh sửa số lượng các mặt hàng.
-  
-    ✓ Lựa chọn thanh toán: Người dùng có thể chọn phương thức thanh toán.
-  
-    ✓ linh hoạt như thanh toán khi nhận hàng cod hoặc thanh toán bằng VNPAY.
-  
+      ✓ Cho phép bạn dễ dàng thêm, xóa hoặc chỉnh sửa số lượng các mặt hàng.
+    
+      ✓ Lựa chọn thanh toán: Người dùng có thể chọn phương thức thanh toán.
+    
+      ✓ linh hoạt như thanh toán khi nhận hàng cod hoặc thanh toán bằng VNPAY.
+    
 − Còn đối phía người quản lý, website cung cấp những tính năng:  
 
   • Quản lý nhân sự 
