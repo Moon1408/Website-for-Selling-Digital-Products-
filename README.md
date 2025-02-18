@@ -51,26 +51,19 @@ một trải nghiệm  mua sắm trực tuyến tiện lợi, linh hoạt và h�
     
   • Quản lý sản phẩm 
   
-    ✓ Thêm, sửa, xóa hàng hóa: Cập nhật thông tin, hình ảnh, giá cả và mô tả sản 
-  phẩm.  
+    ✓ Thêm, sửa, xóa hàng hóa: Cập nhật thông tin, hình ảnh, giá cả và mô tả sản phẩm.  
   
-    ✓ Danh mục loại, thương hiệu: Tạo và quản lý các danh mục để sắp xếp sản 
-  phẩm một cách hợp lý.  
+    ✓ Danh mục loại, thương hiệu: Tạo và quản lý các danh mục để sắp xếp sản phẩm một cách hợp lý.  
   
   • Quản lý đơn hàng  
   
-    ✓ Xem đơn hàng: Xem và kiểm tra các đơn hàng, chi tiết về sản phẩm, số lượng, 
-  giá, phương thức thanh toán và thông tin  
-  khách hàng.  
+    ✓ Xem đơn hàng: Xem và kiểm tra các đơn hàng, chi tiết về sản phẩm, số lượng, giá, phương thức thanh toán và thông tin khách hàng.  
   
-    ✓ Xử lý đơn hàng: Đánh dấu trạng thái của đơn hàng (đã hủy, mới đặt hàng, 
-  chờ giao hàng, đã giao hàng).  
+    ✓ Xử lý đơn hàng: Đánh dấu trạng thái của đơn hàng (đã hủy, mới đặt hàng, chờ giao hàng, đã giao hàng).  
   
   • Quản lý giảm giá 
   
-    ✓ Tạo mã giảm giá mới: Tạo các mã giảm giá với các thông tin như tên giảm 
-  giá, mã giảm giá, ngày bắt đầu, ngày kết thúc, giá trị giảm giá, và số lượng 
-  còn lại. 
+    ✓ Tạo mã giảm giá mới: Tạo các mã giảm giá với các thông tin như tên giảm giá, mã giảm giá, ngày bắt đầu, ngày kết thúc, giá trị giảm giá, và số lượng còn lại. 
   
     ✓ Cập nhật mã giảm giá: Chỉnh sửa các thông tin của mã giảm giá hiện có. 
     
@@ -84,8 +77,7 @@ một trải nghiệm  mua sắm trực tuyến tiện lợi, linh hoạt và h�
     
   • Thống kê và báo cáo  
   
-    ✓ Báo cáo doanh số: Hiển thị thông tin về doanh thu, số lượng sản phẩm đã bán 
-  trong một khoảng thời gian cụ thể.  
+    ✓ Báo cáo doanh số: Hiển thị thông tin về doanh thu, số lượng sản phẩm đã bán trong một khoảng thời gian cụ thể.  
 
 3. Công cụ: Odoo, Draw.io, StarUML
 
